@@ -125,7 +125,7 @@ export default {
 <style scoped>
 .hero {
   position: relative;
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 80px);
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
@@ -407,7 +407,7 @@ export default {
 
 /* Estilos da Seção Destaques */
 .highlights-section {
-  background: linear-gradient(135deg, var(--color-primary-transparent) 0%, var(--color-light) 100%);
+  background: #fff;
   padding: 5rem 0;
   position: relative;
   overflow: hidden;

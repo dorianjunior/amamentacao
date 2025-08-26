@@ -78,14 +78,14 @@ export default {
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(129, 92, 133, 0.08);
-  height: 70px;
+  height: 80px;
   display: flex;
   align-items: center;
 }
 
 .header-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
@@ -104,8 +104,8 @@ export default {
 }
 
 .brand-logo {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   flex-shrink: 0;
 }
