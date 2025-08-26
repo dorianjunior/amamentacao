@@ -1,0 +1,46 @@
+:root {
+  /* Cores principais */
+  --color-primary: #b18cae;
+  --color-primary-transparent: #b18caed4;
+  --color-secondary: #927690;
+  --color-tertiary: #876f86;
+  --color-quaternary-transparent: #736071b8;
+  --color-quaternary: #736071;
+  --color-dark: #534a53;
+}
+
+/* Cores de fundo com classes utilitárias */
+.bg-primary { background-color: var(--color-primary); }
+.bg-primary-transparent { background-color: var(--color-primary-transparent); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-tertiary { background-color: var(--color-tertiary); }
+.bg-quaternary-transparent { background-color: var(--color-quaternary-transparent); }
+.bg-quaternary { background-color: var(--color-quaternary); }
+.bg-dark { background-color: var(--color-dark); }
+
+/* Cores de texto com classes utilitárias */
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.text-tertiary { color: var(--color-tertiary); }
+.text-quaternary { color: var(--color-quaternary); }
+.text-dark { color: var(--color-dark); }
+
+/* Cores de borda com classes utilitárias */
+.border-primary { border-color: var(--color-primary); }
+.border-secondary { border-color: var(--color-secondary); }
+.border-tertiary { border-color: var(--color-tertiary); }
+.border-quaternary { border-color: var(--color-quaternary); }
+.border-dark { border-color: var(--color-dark); }
+
+/* Hover states */
+.hover\:bg-primary:hover { background-color: var(--color-primary); }
+.hover\:bg-secondary:hover { background-color: var(--color-secondary); }
+.hover\:bg-tertiary:hover { background-color: var(--color-tertiary); }
+.hover\:bg-quaternary:hover { background-color: var(--color-quaternary); }
+.hover\:bg-dark:hover { background-color: var(--color-dark); }
+
+.hover\:text-primary:hover { color: var(--color-primary); }
+.hover\:text-secondary:hover { color: var(--color-secondary); }
+.hover\:text-tertiary:hover { color: var(--color-tertiary); }
+.hover\:text-quaternary:hover { color: var(--color-quaternary); }
+.hover\:text-dark:hover { color: var(--color-dark); }
