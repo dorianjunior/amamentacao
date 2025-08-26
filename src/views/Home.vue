@@ -10,7 +10,9 @@
           <h1 class="hero-title">
             Consultoria em
             <br />
-            Amamentação
+            Aleitamento Materno e
+            <br />
+            Cuidados com Bebês
           </h1>
 
           <p class="hero-subtitle">
@@ -45,24 +47,27 @@ export default {
 <style scoped>
 .hero {
   position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+  min-height: calc(100vh - 70px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   overflow: hidden;
 }
 
 .hero-background {
   position: absolute;
   inset: 0;
-  background: var(--color-primary-transparent);
+  background: linear-gradient(
+    135deg,
+    var(--color-primary-dark) 0%,
+    var(--color-primary) 100%
+  );
 }
 
 .hero-image {
-  position: absolute;
-  right: 0;
-  top: 0;
+  position: relative;
+  grid-column: 2;
   height: 100%;
-  width: 50%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -70,6 +75,11 @@ export default {
   content: '';
   position: absolute;
   inset: 0;
+  background: linear-gradient(
+    to right,
+    transparent 50%,
+    var(--color-overlay) 100%
+  );
   z-index: 1;
 }
 
@@ -81,87 +91,237 @@ export default {
 }
 
 .hero-content {
+  grid-column: 1;
   position: relative;
   z-index: 2;
-  max-width: 32rem;
-  padding: 0 1rem;
+  width: 100%;
+  max-width: 40rem;
+  padding: 4rem;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
 }
 
-@media (min-width: 640px) {
+/* Desktop Styles */
+@media (min-width: 1400px) {
   .hero-content {
-    padding: 0 1.5rem;
+    max-width: 45rem;
+    margin-left: 5%;
   }
 }
 
-@media (min-width: 1024px) {
+/* Mobile Styles */
+@media (max-width: 1200px) {
   .hero-content {
-    padding: 0 2rem;
+    margin-left: 2%;
+    max-width: 36rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: calc(100vh - 60px);
+  }
+
+  .hero-image {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+    opacity: 0.15;
+  }
+
+  .hero-image::before {
+    background: linear-gradient(
+      to bottom,
+      var(--color-primary) 0%,
+      var(--color-primary-transparent) 100%
+    );
+  }
+
+  .hero-content {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    align-items: center;
   }
 }
 
 .hero-logo {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
 }
 
 .hero-logo img {
-  height: 4rem;
+  height: 4.5rem;
+  width: auto;
+  filter: brightness(1.1) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  transition: all 0.3s ease;
+}
+
+.hero-logo img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2) drop-shadow(0 6px 8px rgba(0, 0, 0, 0.15));
+}
+
+.hero-logo::after {
+  content: '';
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background: var(--color-accent);
+  opacity: 0.7;
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
   line-height: 1.2;
   font-weight: 700;
-  color: white;
+  color: var(--color-light);
   margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 768px) {
-  .hero-title {
-    font-size: 3.75rem;
-  }
+.hero-title br {
+  display: block;
+  content: "";
+  margin: 0.2em 0;
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1.125rem, 2vw, 1.35rem);
+  line-height: 1.6;
+  color: var(--color-light);
   font-weight: 300;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   max-width: 36rem;
+  opacity: 0.95;
+  position: relative;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-accent);
 }
 
 .hero-cta {
   display: inline-flex;
   align-items: center;
-  padding: 0.75rem 2rem;
-  background-color: white;
-  color: var(--color-primary);
+  padding: 1rem 2.5rem;
+  background: var(--color-light);
+  color: var(--color-primary-dark);
   font-weight: 600;
-  border-radius: 0.375rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s;
+  font-size: 1.125rem;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 2px solid transparent;
 }
 
 .hero-cta:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background: transparent;
+  color: var(--color-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--color-light);
 }
 
 .hero-info {
-  margin-top: 3rem;
-  color: rgba(255, 255, 255, 0.9);
+  margin-top: 3.5rem;
+  color: var(--color-light);
+  text-align: left;
+  width: 100%;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.5rem;
 }
 
 .info-name {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-light);
 }
 
 .info-coren {
-  margin-top: 0.25rem;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.9;
+  color: var(--color-accent);
 }
 
 .info-location {
-  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0.85;
+  color: var(--color-light);
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hero-logo img {
+    height: 4rem;
+  }
+
+  .hero-title {
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .hero-cta {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+
+  .hero-info {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .info-name {
+    font-size: 1.125rem;
+  }
+
+  .info-coren,
+  .info-location {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-logo,
+.hero-title,
+.hero-subtitle,
+.hero-cta,
+.hero-info {
+  animation: fadeInUp 0.8s ease backwards;
+}
+
+.hero-logo { animation-delay: 0.2s; }
+.hero-title { animation-delay: 0.4s; }
+.hero-subtitle { animation-delay: 0.6s; }
+.hero-cta { animation-delay: 0.8s; }
+.hero-info { animation-delay: 1s; }
 
 .bg-primary-transparent {
   background-color: var(--color-primary-transparent);

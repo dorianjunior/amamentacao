@@ -73,11 +73,11 @@ export default {
 
 <style scoped>
 .site-header {
-  background: white;
+  background: var(--color-light);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 1px 0 rgba(177, 140, 174, 0.1);
+  box-shadow: 0 2px 8px rgba(129, 92, 133, 0.08);
   height: 70px;
   display: flex;
   align-items: center;
@@ -115,20 +115,22 @@ export default {
 }
 
 .brand-title {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
   font-size: 1.1rem;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  letter-spacing: -0.01em;
 }
 
 .brand-subtitle {
-  color: var(--color-tertiary);
+  color: var(--color-secondary);
   font-size: 0.85rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  opacity: 0.9;
 }
 
 /* Navigation */
@@ -148,23 +150,23 @@ export default {
 }
 
 .nav-list a {
-  color: var(--color-tertiary);
+  color: var(--color-secondary);
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
   padding: 0.5rem 0;
   position: relative;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .nav-list a::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: var(--color-primary);
+  background: var(--gradient-primary);
   transform: scaleX(0);
   transition: transform 0.3s ease;
   transform-origin: center;
@@ -172,7 +174,7 @@ export default {
 
 .nav-list a:hover,
 .nav-list a.router-link-active {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 .nav-list a:hover::after,
@@ -182,14 +184,17 @@ export default {
 
 .contact-link {
   color: white !important;
-  background-color: var(--color-primary);
-  padding: 0.5rem 1rem !important;
+  background: var(--gradient-primary);
+  padding: 0.5rem 1.25rem !important;
   border-radius: 50px;
-  transition: background-color 0.3s ease !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 6px rgba(129, 92, 133, 0.2);
 }
 
 .contact-link:hover {
-  background-color: var(--color-secondary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(129, 92, 133, 0.3);
+  background: var(--gradient-light);
 }
 
 .contact-link::after {
