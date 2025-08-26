@@ -12,7 +12,7 @@ const showTooltip = ref(false)
 const tooltip = ref('Posso Ajudar?')
 
 const whatsappUrl = computed(() => {
-    const message = 'Olá! Gostaria de saber mais sobre os serviços de jardinagem'
+    const message = 'Olá Glacy! Gostaria de saber mais sobre os serviços!'
     return `https://api.whatsapp.com/send?phone=5548996680096&text=${encodeURIComponent(message)}`
 })
 </script>
