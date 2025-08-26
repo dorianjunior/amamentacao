@@ -22,3 +22,11 @@
   --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   --gradient-light: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
 }
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  margin: 0;
+  padding: 0;
+}
