@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from "vue-router";
 import App from './App.vue'
 
+// Importar bibliotecas de animação
+import AOS from 'aos'
 
 import './assets/css/main.css'
 
@@ -48,4 +50,14 @@ const router = createRouter({
     routes,
 });
 
-createApp(App).use(router).mount('#app')
+const app = createApp(App);
+
+// Inicializar AOS
+AOS.init({
+    duration: 800,
+    once: true,
+    offset: 100,
+});
+
+app.use(router);
+app.mount('#app');

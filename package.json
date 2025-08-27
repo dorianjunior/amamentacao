@@ -10,7 +10,13 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "countup.js": "^2.9.0",
+    "particles.js": "^2.0.0",
+    "swiper": "^11.2.10",
+    "typed.js": "^2.1.0",
     "vue": "^3.4.0",
     "vue-router": "^4.0.0"
   },
