@@ -183,6 +183,124 @@
       </div>
     </section>
 
+    <!-- Seção Próximos Cursos -->
+    <section class="upcoming-courses-section">
+      <div class="upcoming-courses-container">
+        <div class="courses-header" data-aos="fade-up">
+          <h2 class="section-title">Próximos Cursos Presenciais</h2>
+          <p class="courses-subtitle">Não perca a oportunidade de se capacitar com a nossa equipe especializada</p>
+        </div>
+
+        <div class="courses-timeline">
+          <!-- Imersão Profissão Materno Infantil -->
+          <div class="course-event featured" data-aos="fade-up" data-aos-delay="100">
+            <div class="event-date">
+              <span class="day">29-31</span>
+              <span class="month">AGO</span>
+            </div>
+            <div class="event-content">
+              <div class="event-header">
+                <h3>Imersão Profissão Materno Infantil</h3>
+                <span class="event-location">Hotel Faial - Centro, Florianópolis</span>
+              </div>
+              <div class="event-details">
+                <p class="event-time">29 de ago. de 2025, 09:00 – 31 de ago. de 2025, 20:00</p>
+                <p class="event-description">03 capacitações em 02 dias presenciais</p>
+              </div>
+              <div class="event-actions">
+                <router-link to="/contato" class="event-cta primary">Mais Informações</router-link>
+                <div class="event-social">
+                  <span>Compartilhar:</span>
+                  <a href="#" class="social-btn facebook" aria-label="Compartilhar no Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-btn twitter" aria-label="Compartilhar no Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-btn linkedin" aria-label="Compartilhar no LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Curso de Formação de Consultores -->
+          <div class="course-event" data-aos="fade-up" data-aos-delay="200">
+            <div class="event-date">
+              <span class="day">29</span>
+              <span class="month">AGO</span>
+            </div>
+            <div class="event-content">
+              <div class="event-header">
+                <h3>Curso de Formação de Consultores em Aleitamento Materno</h3>
+                <span class="event-location">Hotel Faial - Centro, Florianópolis</span>
+              </div>
+              <div class="event-details">
+                <p class="event-time">29 de ago. de 2025, 09:00 – 20:00</p>
+                <p class="event-description">Para graduandos e profissionais da área da saúde</p>
+              </div>
+              <div class="event-actions">
+                <router-link to="/contato" class="event-cta">Mais Informações</router-link>
+              </div>
+            </div>
+          </div>
+
+          <!-- Curso de Cuidados com Bebês -->
+          <div class="course-event" data-aos="fade-up" data-aos-delay="300">
+            <div class="event-date">
+              <span class="day">31</span>
+              <span class="month">AGO</span>
+            </div>
+            <div class="event-content">
+              <div class="event-header">
+                <h3>Curso de Cuidados com Bebês</h3>
+                <span class="event-location">Hotel Faial - Centro, Florianópolis</span>
+              </div>
+              <div class="event-details">
+                <p class="event-time">31 de ago. de 2025, 08:00 – 13:00</p>
+                <p class="event-description">Curso de capacitação</p>
+              </div>
+              <div class="event-actions">
+                <router-link to="/contato" class="event-cta">Mais Informações</router-link>
+              </div>
+            </div>
+          </div>
+
+          <!-- Curso de Furo Humanizado -->
+          <div class="course-event" data-aos="fade-up" data-aos-delay="400">
+            <div class="event-date">
+              <span class="day">31</span>
+              <span class="month">AGO</span>
+            </div>
+            <div class="event-content">
+              <div class="event-header">
+                <h3>Curso de Furo Humanizado - Bebê e Adulto</h3>
+                <span class="event-location">Hotel Faial - Centro, Florianópolis</span>
+              </div>
+              <div class="event-details">
+                <p class="event-time">31 de ago. de 2025, 13:00 – 20:00</p>
+                <p class="event-description">Curso de capacitação</p>
+              </div>
+              <div class="event-actions">
+                <router-link to="/contato" class="event-cta">Mais Informações</router-link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses-footer" data-aos="fade-up" data-aos-delay="500">
+          <p class="courses-note">
+            <i class="fas fa-info-circle"></i>
+            Todos os cursos são realizados com certificação e material didático incluso. Vagas limitadas!
+          </p>
+          <router-link to="/contato" class="courses-contact-cta">
+            Entre em Contato para Mais Informações
+          </router-link>
+        </div>
+      </div>
+    </section>
+
     <!-- Seção Sobre -->
     <section class="about-section">
       <div class="about-container">
@@ -976,6 +1094,383 @@ export default {
 
   .services-more h3 {
     font-size: 1.5rem;
+  }
+}
+
+/* Estilos da Seção Próximos Cursos */
+.upcoming-courses-section {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.upcoming-courses-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="30" cy="40" r="1.5" fill="rgba(255,255,255,0.08)"/><circle cx="60" cy="20" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="60" r="1.2" fill="rgba(255,255,255,0.06)"/></svg>');
+  animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.upcoming-courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.courses-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.courses-header .section-title {
+  color: var(--color-light);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.courses-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+
+.courses-timeline {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.course-event {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+
+.course-event:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 1);
+}
+
+.course-event.featured {
+  border: 2px solid var(--color-accent);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 248, 240, 0.98) 100%);
+}
+
+.course-event.featured::before {
+  content: 'DESTAQUE';
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: var(--color-accent);
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.event-date {
+  background: var(--color-primary);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-event.featured .event-date {
+  background: var(--color-accent);
+}
+
+.event-date .day {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.event-date .month {
+  font-size: 0.875rem;
+  font-weight: 500;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+.event-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.event-header h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.event-location {
+  font-size: 1rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-location::before {
+  content: '📍';
+  font-size: 0.875rem;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.event-time {
+  font-size: 1rem;
+  color: var(--color-text);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-time::before {
+  content: '🕒';
+  font-size: 0.875rem;
+}
+
+.event-description {
+  font-size: 1rem;
+  color: var(--color-text);
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.event-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.event-cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid var(--color-primary);
+  font-size: 0.9rem;
+}
+
+.event-cta:hover {
+  background: transparent;
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.event-cta.primary {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.event-cta.primary:hover {
+  background: transparent;
+  color: var(--color-accent);
+}
+
+.event-social {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.social-btn.facebook {
+  background: #1877f2;
+}
+
+.social-btn.twitter {
+  background: #1da1f2;
+}
+
+.social-btn.linkedin {
+  background: #0077b5;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.courses-footer {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.courses-note {
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  line-height: 1.6;
+}
+
+.courses-note i {
+  color: var(--color-accent);
+  font-size: 1.25rem;
+}
+
+.courses-contact-cta {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--color-primary-dark);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all 0.3s ease;
+  border: 2px solid var(--color-primary-dark);
+}
+
+.courses-contact-cta:hover {
+  background: transparent;
+  color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsividade para Próximos Cursos */
+@media (max-width: 768px) {
+  .upcoming-courses-section {
+    padding: 4rem 0;
+  }
+
+  .courses-header .section-title {
+    font-size: 2rem;
+  }
+
+  .courses-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .course-event {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .event-date {
+    min-width: auto;
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+  }
+
+  .event-actions {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .event-social {
+    justify-content: center;
+  }
+
+  .courses-footer {
+    padding: 2rem;
+  }
+
+  .courses-note {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .courses-contact-cta {
+    font-size: 1rem;
+    padding: 0.875rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .upcoming-courses-container {
+    padding: 0 1.5rem;
+  }
+
+  .courses-header .section-title {
+    font-size: 1.75rem;
+  }
+
+  .event-header h3 {
+    font-size: 1.25rem;
+  }
+
+  .course-event {
+    padding: 1.25rem;
+  }
+
+  .courses-footer {
+    padding: 1.5rem;
   }
 }
 
