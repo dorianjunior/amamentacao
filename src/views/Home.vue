@@ -4,27 +4,23 @@
     <div class="hero">
       <div class="hero-background">
         <div class="hero-content">
-          <div class="hero-logo">
+          <div class="hero-logo" data-aos="fade-down" data-aos-delay="100">
             <img src="/src/assets/img/logo.webp" alt="Logo Amamentação Florianópolis">
           </div>
 
-          <h1 class="hero-title">
-            Consultoria em
-            <br />
-            Aleitamento Materno e
-            <br />
-            Cuidados com Bebês
+          <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+            <span class="typing-text"></span>
           </h1>
 
-          <p class="hero-subtitle">
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
             Acolhimento, cuidado e experiência para um maternar mais leve e seguro
           </p>
 
-          <router-link to="/contato" class="hero-cta">
+          <router-link to="/contato" class="hero-cta" data-aos="zoom-in" data-aos-delay="600">
             Agende uma consulta
           </router-link>
 
-          <div class="hero-info">
+          <div class="hero-info" data-aos="fade-up" data-aos-delay="800">
             <p class="info-name">Enfª Glacy Song</p>
             <p class="info-coren">COREN-SC 655.878</p>
             <p class="info-location">Atendimentos em Florianópolis e online para todo o Brasil</p>
@@ -32,7 +28,7 @@
         </div>
       </div>
 
-      <div class="hero-image">
+      <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
         <img src="/src/assets/img/hero.webp" alt="Enfermeira Glacy Song">
       </div>
     </div>
@@ -40,27 +36,28 @@
     <!-- Seção Destaques -->
     <section class="highlights-section">
       <div class="highlights-container">
+        <h2 class="section-title" data-aos="fade-up">Por que escolher nossos serviços?</h2>
         <div class="highlights-grid">
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="far fa-check-square"></i></div>
+          <div class="highlight-card" data-aos="flip-up" data-aos-delay="100">
+            <div class="highlight-icon animate__animated animate__pulse animate__infinite animate__slow"><i class="far fa-check-square"></i></div>
             <h3>Experiência Comprovada</h3>
-            <p>Mais de 5 anos ajudando famílias em sua jornada de amamentação e cuidados com bebês</p>
+            <p>Mais de <span class="count-up" data-count="5">0</span> anos ajudando famílias em sua jornada de amamentação e cuidados com bebês</p>
           </div>
 
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="far fa-home"></i></div>
+          <div class="highlight-card" data-aos="flip-up" data-aos-delay="200">
+            <div class="highlight-icon animate__animated animate__pulse animate__infinite animate__slow"><i class="far fa-home"></i></div>
             <h3>Atendimento Flexível</h3>
             <p>Consultas presenciais em Florianópolis e online para todo o Brasil, no conforto do seu lar</p>
           </div>
 
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="far fa-heart"></i></div>
+          <div class="highlight-card" data-aos="flip-up" data-aos-delay="300">
+            <div class="highlight-icon animate__animated animate__pulse animate__infinite animate__slow"><i class="far fa-heart"></i></div>
             <h3>Cuidado Humanizado</h3>
             <p>Acolhimento personalizado com foco no bem-estar físico e emocional da mãe e do bebê</p>
           </div>
 
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="fab fa-whatsapp"></i></div>
+          <div class="highlight-card" data-aos="flip-up" data-aos-delay="400">
+            <div class="highlight-icon animate__animated animate__pulse animate__infinite animate__slow"><i class="fab fa-whatsapp"></i></div>
             <h3>Suporte Contínuo</h3>
             <p>Acompanhamento via WhatsApp antes e depois das consultas para seu maior conforto</p>
           </div>
@@ -72,29 +69,29 @@
     <section class="about-section">
       <div class="about-container">
         <div class="about-content">
-          <div class="about-text">
+          <div class="about-text" data-aos="fade-right">
             <h2 class="about-title">Enfermeira Glacy Song</h2>
             <p class="about-coren">COREN-SC 655.878</p>
             
-            <div class="about-description">
+            <div class="about-description" data-aos="fade-up" data-aos-delay="200">
               <p>Sou enfermeira graduada pela UFSC, pós-graduada em Saúde da Mulher e da Família, e atuo com amor e técnica de forma humanizada para apoiar mães, bebês e famílias.</p>
               
-              <p>Desde 2018, já ajudei centenas de famílias a viverem uma maternidade mais leve e eficaz, com segurança e acolhimento.</p>
+              <p>Desde 2018, já ajudei <span class="count-up" data-count="500">0</span>+ famílias a viverem uma maternidade mais leve e eficaz, com segurança e acolhimento.</p>
             </div>
 
-            <div class="services-list">
+            <div class="services-list" data-aos="fade-up" data-aos-delay="400">
               <h3>Como posso te ajudar?</h3>
               <ul>
-                <li>Consultoria em Amamentação</li>
-                <li>Oficina de Cuidados com Bebês</li>
-                <li>Furo de Orelha Humanizado</li>
-                <li>Laserterapia</li>
-                <li>Atendimento Home Care para puérperas e recém-nascidos</li>
-                <li>Cursos para profissionais</li>
+                <li data-aos="fade-left" data-aos-delay="500">Consultoria em Amamentação</li>
+                <li data-aos="fade-left" data-aos-delay="600">Oficina de Cuidados com Bebês</li>
+                <li data-aos="fade-left" data-aos-delay="700">Furo de Orelha Humanizado</li>
+                <li data-aos="fade-left" data-aos-delay="800">Laserterapia</li>
+                <li data-aos="fade-left" data-aos-delay="900">Atendimento Home Care para puérperas e recém-nascidos</li>
+                <li data-aos="fade-left" data-aos-delay="1000">Cursos para profissionais</li>
               </ul>
             </div>
 
-            <div class="about-highlights">
+            <div class="about-highlights" data-aos="fade-up" data-aos-delay="600">
               <p>Todos os atendimentos são humanizados, com foco no bem-estar físico e emocional da mãe e do bebê.</p>
               
               <p>Atendimentos em Florianópolis presencial e no mundo por videoconferência.</p>
@@ -102,12 +99,12 @@
               <p>Atendimento via WhatsApp, com suporte antes e depois.</p>
             </div>
 
-            <router-link to="/sobremim" class="about-cta">
+            <router-link to="/sobremim" class="about-cta animate__animated animate__heartBeat animate__infinite animate__slower" data-aos="zoom-in" data-aos-delay="800">
               Quero saber mais sobre a Enfª Glacy Song
             </router-link>
           </div>
           
-          <div class="about-image">
+          <div class="about-image" data-aos="fade-left" data-aos-delay="300">
             <img src="/src/assets/img/glacy-sobre.webp" alt="Enfermeira Glacy Song">
           </div>
         </div>
@@ -117,8 +114,50 @@
 </template>
 
 <script>
+import Typed from 'typed.js'
+import { CountUp } from 'countup.js'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted() {
+    const typed = new Typed('.typing-text', {
+      strings: [
+        'Consultoria em Aleitamento Materno',
+        'Furo de Orelha Humanizado',
+        'Home Care Materno Infantil'
+      ],
+      typeSpeed: 80,
+      backSpeed: 40,
+      backDelay: 2000,
+      loop: true,
+      showCursor: true,
+      cursorChar: '|'
+    })
+
+    const countElements = document.querySelectorAll('.count-up')
+    countElements.forEach(element => {
+      const targetValue = parseInt(element.getAttribute('data-count'))
+      const countUp = new CountUp(element, targetValue, {
+        duration: 2,
+        useEasing: true,
+        useGrouping: true,
+        separator: '.',
+        decimal: ',',
+      })
+      
+      // Observar quando o elemento entra na viewport
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            countUp.start()
+            observer.unobserve(entry.target)
+          }
+        })
+      })
+      
+      observer.observe(element)
+    })
+  }
 }
 </script>
 
@@ -216,7 +255,7 @@ export default {
     background: linear-gradient(
       to bottom,
       var(--color-primary) 0%,
-      var(--color-primary-transparent) 100%
+      var(--color-primary-transparent) 0%
     );
   }
 
@@ -375,31 +414,7 @@ export default {
   }
 }
 
-/* Animações */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.hero-logo,
-.hero-title,
-.hero-subtitle,
-.hero-cta,
-.hero-info {
-  animation: fadeInUp 0.8s ease backwards;
-}
-
-.hero-logo { animation-delay: 0.2s; }
-.hero-title { animation-delay: 0.4s; }
-.hero-subtitle { animation-delay: 0.6s; }
-.hero-cta { animation-delay: 0.8s; }
-.hero-info { animation-delay: 1s; }
+/* Animações CSS removidas - usando apenas AOS e Animate.css para melhor performance */
 
 .bg-primary-transparent {
   background-color: var(--color-primary-transparent);
@@ -407,10 +422,18 @@ export default {
 
 /* Estilos da Seção Destaques */
 .highlights-section {
-  background: var(--gradient-neutral);
+  background: #fff;
   padding: 5rem 0;
   position: relative;
   overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 3rem;
+  font-weight: 700;
 }
 
 .highlights-container {
@@ -432,15 +455,9 @@ export default {
   border: 1px solid rgba(161, 123, 165, 0.1);
   border-radius: 20px;
   text-align: center;
-  transition: all 0.3s ease;
+  transition: all 0.15s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  animation: fadeInUp 0.8s ease backwards;
 }
-
-.highlight-card:nth-child(1) { animation-delay: 0.1s; }
-.highlight-card:nth-child(2) { animation-delay: 0.2s; }
-.highlight-card:nth-child(3) { animation-delay: 0.3s; }
-.highlight-card:nth-child(4) { animation-delay: 0.4s; }
 
 .highlight-card:hover {
   transform: translateY(-10px);
@@ -452,6 +469,17 @@ export default {
   color: #F39C12;
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  transition: transform 0.15s ease;
+}
+
+.highlight-card:hover .highlight-icon {
+  transform: scale(1.2);
+}
+
+.count-up {
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 1.2em;
 }
 
 .highlight-card h3 {
