@@ -347,6 +347,278 @@
       </div>
     </section>
 
+    <!-- Seção Depoimentos -->
+    <section class="testimonials-section">
+      <div class="testimonials-container">
+        <div class="testimonials-header" data-aos="fade-up">
+          <h2 class="section-title">O que nossos clientes dizem</h2>
+          <p class="testimonials-subtitle">Depoimentos reais de famílias que confiaram em nosso trabalho</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Depoimento 1 -->
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "Atenciosa e com o dom de cuidar ❤️"
+              </blockquote>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="client-info">
+                <p class="client-name">Bruna C.</p>
+                <p class="client-service">Consultoria em Aleitamento</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 2 -->
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "Profissional excepcional! Me ajudou muito na amamentação da minha filha. Super recomendo!"
+              </blockquote>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="client-info">
+                <p class="client-name">Marina S.</p>
+                <p class="client-service">Home Care Materno Infantil</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 3 -->
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "Glacy foi fundamental para o sucesso da nossa amamentação. Técnica, carinhosa e muito competente."
+              </blockquote>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="client-info">
+                <p class="client-name">Ana Paula M.</p>
+                <p class="client-service">Consultoria Individual</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 4 -->
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "O curso para gestantes foi maravilhoso! Me senti muito mais preparada para a chegada do meu bebê."
+              </blockquote>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="client-info">
+                <p class="client-name">Juliana R.</p>
+                <p class="client-service">Curso para Gestantes</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 5 -->
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "Procedimento de furo humanizado incrível! Minha bebê nem chorou. Profissionalismo total!"
+              </blockquote>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="client-info">
+                <p class="client-name">Carla L.</p>
+                <p class="client-service">Furo de Orelha Humanizado</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 6 -->
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <blockquote>
+                "Acompanhamento via WhatsApp foi fundamental. Sempre disponível para tirar dúvidas. Gratidão!"
+              </blockquote>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="client-info">
+                <p class="client-name">Fernanda T.</p>
+                <p class="client-service">Pacote Premium</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Estatísticas -->
+        <div class="testimonials-stats" data-aos="fade-up" data-aos-delay="700">
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="count-up" data-count="500">0</span>+
+            </div>
+            <p>Famílias Atendidas</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="count-up" data-count="98">0</span>%
+            </div>
+            <p>Satisfação dos Clientes</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="count-up" data-count="5">0</span>
+            </div>
+            <p>Anos de Experiência</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5.0</div>
+            <p>Avaliação Média</p>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="testimonials-cta" data-aos="fade-up" data-aos-delay="800">
+          <h3>Quer fazer parte dessas histórias de sucesso?</h3>
+          <p>Agende sua consulta e descubra como podemos ajudar você e sua família</p>
+          <router-link to="/contato" class="testimonials-cta-btn">
+            Agendar Consulta
+          </router-link>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Instagram -->
+    <section class="instagram-section">
+      <div class="instagram-container">
+        <div class="instagram-header" data-aos="fade-up">
+          <h2 class="section-title">Acompanhe-me no Instagram</h2>
+          <p class="instagram-subtitle">Fique por dentro das novidades, dicas e momentos especiais da nossa jornada</p>
+        </div>
+
+        <div class="instagram-accounts">
+          <!-- Instagram Principal -->
+          <div class="instagram-account main-account" data-aos="fade-up" data-aos-delay="100">
+            <div class="account-info">
+              <div class="profile-image">
+                <div class="gradient-border">
+                  <img src="/src/assets/img/logo.webp" alt="Profile amamentacao.florianopolis">
+                </div>
+              </div>
+              <div class="account-details">
+                <h3>@amamentacao.florianopolis</h3>
+                <p>Consultoria em Aleitamento Materno • Enfª Glacy Song • COREN-SC 655.878</p>
+                <a href="https://www.instagram.com/amamentacao.florianopolis/" target="_blank" class="follow-btn">
+                  <i class="fab fa-instagram"></i>
+                  Seguir no Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feed Preview (Simulação) -->
+        <div class="instagram-feed" data-aos="fade-up" data-aos-delay="300">
+          <h3>Últimas publicações</h3>
+          <div class="feed-grid">
+            <div class="feed-item" data-aos="zoom-in" data-aos-delay="400">
+              <img src="/src/assets/img/instagram/385355910_886456999711496_983694715214384212_n.jpg" alt="Post Instagram 1">
+              <div class="feed-overlay">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+            <div class="feed-item" data-aos="zoom-in" data-aos-delay="500">
+              <img src="/src/assets/img/instagram/385847524_874077257603372_207966673765890614_n.jpg" alt="Post Instagram 2">
+              <div class="feed-overlay">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+            <div class="feed-item" data-aos="zoom-in" data-aos-delay="600">
+              <img src="/src/assets/img/instagram/386253666_998198414629857_7520958210346020818_n.jpg" alt="Post Instagram 3">
+              <div class="feed-overlay">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+            <div class="feed-item" data-aos="zoom-in" data-aos-delay="700">
+              <img src="/src/assets/img/instagram/386894722_3482071375366168_7611687037583054617_n.jpg" alt="Post Instagram 4">
+              <div class="feed-overlay">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+            <div class="feed-item" data-aos="zoom-in" data-aos-delay="800">
+              <img src="/src/assets/img/instagram/390475293_6635966053118913_1221472527729436263_n.jpg" alt="Post Instagram 5">
+              <div class="feed-overlay">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+            <div class="feed-item" data-aos="zoom-in" data-aos-delay="900">
+              <img src="/src/assets/img/instagram/391335601_861437655173656_3276125814988221286_n.jpg" alt="Post Instagram 6">
+              <div class="feed-overlay">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="instagram-cta" data-aos="fade-up" data-aos-delay="1000">
+            <p>Veja mais conteúdos e dicas valiosas no nosso Instagram!</p>
+            <div class="social-buttons">
+              <a href="https://www.instagram.com/amamentacao.florianopolis/" target="_blank" class="instagram-btn primary">
+                <i class="fab fa-instagram"></i>
+                @amamentacao.florianopolis
+              </a>
+              <router-link to="/contato" class="instagram-btn secondary">
+                <i class="fas fa-envelope"></i>
+                Entre em Contato
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
@@ -1670,6 +1942,630 @@ export default {
   .services-list li,
   .about-highlights p {
     font-size: 1rem;
+  }
+}
+
+/* Estilos da Seção Depoimentos */
+.testimonials-section {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+}
+
+.testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.testimonials-header .section-title {
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+}
+
+.testimonials-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text);
+  opacity: 0.8;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(161, 123, 165, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.quote-icon {
+  color: var(--color-primary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+  flex: 1;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.rating {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.rating i {
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+.client-info {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 1.5rem;
+}
+
+.client-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.client-service {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  opacity: 0.8;
+  margin: 0;
+}
+
+.testimonials-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: var(--color-text);
+  opacity: 0.8;
+  margin: 0;
+}
+
+.testimonials-cta {
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  padding: 3rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.testimonials-cta h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.testimonials-cta p {
+  font-size: 1.125rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.testimonials-cta-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: white;
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+}
+
+.testimonials-cta-btn:hover {
+  background: transparent;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Responsividade para Depoimentos */
+@media (max-width: 1024px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 4rem 0;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .testimonial-card {
+    padding: 2rem;
+  }
+
+  .testimonials-stats {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .testimonials-cta {
+    padding: 2rem;
+  }
+
+  .testimonials-cta h3 {
+    font-size: 1.5rem;
+  }
+
+  .testimonials-cta p {
+    font-size: 1rem;
+  }
+
+  .testimonials-cta-btn {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-container {
+    padding: 0 1.5rem;
+  }
+
+  .testimonials-header .section-title {
+    font-size: 2rem;
+  }
+
+  .testimonials-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+
+  blockquote {
+    font-size: 1rem;
+  }
+
+  .testimonials-stats {
+    padding: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 1.75rem;
+  }
+
+  .stat-item p {
+    font-size: 0.9rem;
+  }
+
+  .testimonials-cta {
+    padding: 1.5rem;
+  }
+
+  .testimonials-cta h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Estilos da Seção Instagram */
+.instagram-section {
+  background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.instagram-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #E4405F, transparent);
+}
+
+.instagram-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.instagram-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.instagram-header .section-title {
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+}
+
+.instagram-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text);
+  opacity: 0.8;
+}
+
+.instagram-accounts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.instagram-account {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(228, 64, 95, 0.1);
+  transition: all 0.3s ease;
+  max-width: 600px;
+  width: 100%;
+}
+
+.instagram-account.main-account {
+  border: 2px solid rgba(228, 64, 95, 0.2);
+  background: linear-gradient(135deg, #ffffff 0%, #fef7f7 100%);
+}
+
+.instagram-account:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(228, 64, 95, 0.15);
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-image {
+  position: relative;
+}
+
+.gradient-border {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-border img {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.account-details h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.account-details p {
+  color: var(--color-text);
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.follow-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3);
+}
+
+.instagram-feed {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.instagram-feed h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 2.5rem;
+}
+
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.feed-item {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.feed-item:hover {
+  transform: scale(1.05);
+}
+
+.feed-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.feed-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(228, 64, 95, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.feed-item:hover .feed-overlay {
+  opacity: 1;
+}
+
+.feed-overlay i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.instagram-cta p {
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.instagram-btn.primary {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  color: white;
+}
+
+.instagram-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(228, 64, 95, 0.3);
+}
+
+.instagram-btn.secondary {
+  background: transparent;
+  color: #E4405F;
+  border-color: #E4405F;
+}
+
+.instagram-btn.secondary:hover {
+  background: #E4405F;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsividade para Instagram */
+@media (max-width: 1024px) {
+  .feed-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .instagram-section {
+    padding: 4rem 0;
+  }
+
+  .instagram-accounts {
+    margin-bottom: 3rem;
+  }
+
+  .instagram-account {
+    padding: 2rem;
+  }
+
+  .account-info {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .instagram-feed {
+    padding: 2rem;
+  }
+
+  .feed-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+
+  .social-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .instagram-btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .instagram-container {
+    padding: 0 1.5rem;
+  }
+
+  .instagram-account {
+    padding: 2rem;
+  }
+
+  .gradient-border {
+    width: 60px;
+    height: 60px;
+  }
+
+  .gradient-border img {
+    width: 54px;
+    height: 54px;
+  }
+
+  .account-details h3 {
+    font-size: 1.25rem;
+  }
+
+  .instagram-feed {
+    padding: 1.5rem;
+  }
+
+  .instagram-feed h3 {
+    font-size: 1.5rem;
+  }
+
+  .feed-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .instagram-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
   }
 }
 </style>
