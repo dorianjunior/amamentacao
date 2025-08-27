@@ -33,6 +33,52 @@
       </div>
     </div>
 
+    <!-- Seção Sobre -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right">
+            <h2 class="about-title">Enfermeira Glacy Song</h2>
+            <p class="about-coren">COREN-SC 655.878</p>
+            
+            <div class="about-description" data-aos="fade-up" data-aos-delay="200">
+              <p>Sou enfermeira graduada pela UFSC, pós-graduada em Saúde da Mulher e da Família, e atuo com amor e técnica de forma humanizada para apoiar mães, bebês e famílias.</p>
+              
+              <p>Desde 2018, já ajudei <span class="count-up" data-count="500">0</span>+ famílias a viverem uma maternidade mais leve e eficaz, com segurança e acolhimento.</p>
+            </div>
+
+            <div class="services-list" data-aos="fade-up" data-aos-delay="400">
+              <h3>Como posso te ajudar?</h3>
+              <ul>
+                <li data-aos="fade-left" data-aos-delay="500">Consultoria em Amamentação</li>
+                <li data-aos="fade-left" data-aos-delay="600">Oficina de Cuidados com Bebês</li>
+                <li data-aos="fade-left" data-aos-delay="700">Furo de Orelha Humanizado</li>
+                <li data-aos="fade-left" data-aos-delay="800">Laserterapia</li>
+                <li data-aos="fade-left" data-aos-delay="900">Atendimento Home Care para puérperas e recém-nascidos</li>
+                <li data-aos="fade-left" data-aos-delay="1000">Cursos para profissionais</li>
+              </ul>
+            </div>
+
+            <div class="about-highlights" data-aos="fade-up" data-aos-delay="600">
+              <p>Todos os atendimentos são humanizados, com foco no bem-estar físico e emocional da mãe e do bebê.</p>
+              
+              <p>Atendimentos em Florianópolis presencial e no mundo por videoconferência.</p>
+              
+              <p>Atendimento via WhatsApp, com suporte antes e depois.</p>
+            </div>
+
+            <router-link to="/sobremim" class="about-cta animate__animated animate__heartBeat animate__infinite animate__slower" data-aos="zoom-in" data-aos-delay="800">
+              Quero saber mais sobre a Enfª Glacy Song
+            </router-link>
+          </div>
+          
+          <div class="about-image" data-aos="fade-left" data-aos-delay="300">
+            <img src="/src/assets/img/glacy-sobre.webp" alt="Enfermeira Glacy Song">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Seção Destaques -->
     <section class="highlights-section">
       <div class="highlights-container">
@@ -301,51 +347,6 @@
       </div>
     </section>
 
-    <!-- Seção Sobre -->
-    <section class="about-section">
-      <div class="about-container">
-        <div class="about-content">
-          <div class="about-text" data-aos="fade-right">
-            <h2 class="about-title">Enfermeira Glacy Song</h2>
-            <p class="about-coren">COREN-SC 655.878</p>
-            
-            <div class="about-description" data-aos="fade-up" data-aos-delay="200">
-              <p>Sou enfermeira graduada pela UFSC, pós-graduada em Saúde da Mulher e da Família, e atuo com amor e técnica de forma humanizada para apoiar mães, bebês e famílias.</p>
-              
-              <p>Desde 2018, já ajudei <span class="count-up" data-count="500">0</span>+ famílias a viverem uma maternidade mais leve e eficaz, com segurança e acolhimento.</p>
-            </div>
-
-            <div class="services-list" data-aos="fade-up" data-aos-delay="400">
-              <h3>Como posso te ajudar?</h3>
-              <ul>
-                <li data-aos="fade-left" data-aos-delay="500">Consultoria em Amamentação</li>
-                <li data-aos="fade-left" data-aos-delay="600">Oficina de Cuidados com Bebês</li>
-                <li data-aos="fade-left" data-aos-delay="700">Furo de Orelha Humanizado</li>
-                <li data-aos="fade-left" data-aos-delay="800">Laserterapia</li>
-                <li data-aos="fade-left" data-aos-delay="900">Atendimento Home Care para puérperas e recém-nascidos</li>
-                <li data-aos="fade-left" data-aos-delay="1000">Cursos para profissionais</li>
-              </ul>
-            </div>
-
-            <div class="about-highlights" data-aos="fade-up" data-aos-delay="600">
-              <p>Todos os atendimentos são humanizados, com foco no bem-estar físico e emocional da mãe e do bebê.</p>
-              
-              <p>Atendimentos em Florianópolis presencial e no mundo por videoconferência.</p>
-              
-              <p>Atendimento via WhatsApp, com suporte antes e depois.</p>
-            </div>
-
-            <router-link to="/sobremim" class="about-cta animate__animated animate__heartBeat animate__infinite animate__slower" data-aos="zoom-in" data-aos-delay="800">
-              Quero saber mais sobre a Enfª Glacy Song
-            </router-link>
-          </div>
-          
-          <div class="about-image" data-aos="fade-left" data-aos-delay="300">
-            <img src="/src/assets/img/glacy-sobre.webp" alt="Enfermeira Glacy Song">
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
