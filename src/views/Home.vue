@@ -236,7 +236,7 @@ export default {
 }
 
 .hero-logo img {
-  height: 4.5rem;
+  height: 5rem;
   width: auto;
   filter: brightness(1.1) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
   transition: all 0.3s ease;
@@ -343,7 +343,7 @@ export default {
 /* Mobile Styles */
 @media (max-width: 768px) {
   .hero-logo img {
-    height: 4rem;
+    height: 6rem;
   }
 
   .hero-title {
