@@ -42,25 +42,25 @@
       <div class="highlights-container">
         <div class="highlights-grid">
           <div class="highlight-card">
-            <div class="highlight-icon">👶</div>
+            <div class="highlight-icon"><i class="far fa-check-square"></i></div>
             <h3>Experiência Comprovada</h3>
             <p>Mais de 5 anos ajudando famílias em sua jornada de amamentação e cuidados com bebês</p>
           </div>
 
           <div class="highlight-card">
-            <div class="highlight-icon">🏠</div>
+            <div class="highlight-icon"><i class="far fa-home"></i></div>
             <h3>Atendimento Flexível</h3>
             <p>Consultas presenciais em Florianópolis e online para todo o Brasil, no conforto do seu lar</p>
           </div>
 
           <div class="highlight-card">
-            <div class="highlight-icon">💕</div>
+            <div class="highlight-icon"><i class="far fa-heart"></i></div>
             <h3>Cuidado Humanizado</h3>
             <p>Acolhimento personalizado com foco no bem-estar físico e emocional da mãe e do bebê</p>
           </div>
 
           <div class="highlight-card">
-            <div class="highlight-icon">📱</div>
+            <div class="highlight-icon"><i class="fab fa-whatsapp"></i></div>
             <h3>Suporte Contínuo</h3>
             <p>Acompanhamento via WhatsApp antes e depois das consultas para seu maior conforto</p>
           </div>
@@ -407,7 +407,7 @@ export default {
 
 /* Estilos da Seção Destaques */
 .highlights-section {
-  background: #fff;
+  background: var(--gradient-neutral);
   padding: 5rem 0;
   position: relative;
   overflow: hidden;
@@ -427,8 +427,9 @@ export default {
 }
 
 .highlight-card {
-  background: var(--color-light);
+  background: white;
   padding: 2rem;
+  border: 1px solid rgba(161, 123, 165, 0.1);
   border-radius: 20px;
   text-align: center;
   transition: all 0.3s ease;
@@ -447,6 +448,8 @@ export default {
 }
 
 .highlight-icon {
+  /* color: var(--color-primary-dark); */
+  color: #F39C12;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -459,7 +462,7 @@ export default {
 }
 
 .highlight-card p {
-  color: var(--color-text);
+  color: var(--color-dark);
   font-size: 1rem;
   line-height: 1.6;
 }

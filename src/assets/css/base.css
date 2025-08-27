@@ -21,6 +21,13 @@
   /* Gradientes predefinidos */
   --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   --gradient-light: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+  --gradient-neutral: linear-gradient(135deg, #f8f9fa, #e9ecef);
+
+  /* Cores adicionais para contraste */
+  --color-contrast: #2C3E50;        /* Azul escuro para textos importantes */
+  --color-success: #27AE60;         /* Verde para elementos positivos */
+  --color-warm: #F39C12;            /* Dourado suave para destaques calorosos */
+  --color-neutral: #7F8C8D;         /* Cinza para textos secundários */
 }
 
 body {
