@@ -65,6 +65,124 @@
       </div>
     </section>
 
+    <!-- Seção Serviços -->
+    <section class="services-section">
+      <div class="services-container">
+        <div class="services-header" data-aos="fade-up">
+          <h2 class="section-title">Serviços Prestados</h2>
+          <p class="services-subtitle">Cuidado especializado para cada momento da sua jornada materna</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Consultoria em Aleitamento Materno -->
+          <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-image">
+              <img src="/src/assets/img/servicos/consultoria-aleitamento-materno.webp" alt="Consultoria em Aleitamento Materno">
+            </div>
+            <h3>Consultoria em Aleitamento Materno</h3>
+            <p class="service-type">Individual ou Plano</p>
+            <p class="service-duration">1h 30min</p>
+            <p class="service-description">Suporte especializado para uma amamentação bem-sucedida e tranquila</p>
+            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+          </div>
+
+          <!-- Home Care Materno Infantil -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-image">
+              <img src="/src/assets/img/servicos/home-care-materno-infantil.webp" alt="Home Care Materno Infantil">
+            </div>
+            <h3>Home Care Materno Infantil</h3>
+            <p class="service-type">Para mamães e bebês</p>
+            <p class="service-duration">4h ou 8h</p>
+            <p class="service-description">Cuidado especializado no conforto do seu lar</p>
+            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+          </div>
+
+          <!-- Curso para Gestantes/Casais -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-image">
+              <img src="/src/assets/img/servicos/curso-gestantes-casais.webp" alt="Curso para Gestantes/Casais">
+            </div>
+            <h3>Curso para Gestantes/Casais</h3>
+            <p class="service-type">Preparação completa</p>
+            <p class="service-duration">3h</p>
+            <p class="service-description">Preparação para receber seu bebê com segurança</p>
+            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+          </div>
+
+          <!-- Pacote Premium -->
+          <div class="service-card premium" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-image">
+              <img src="/src/assets/img/servicos/pacote-premium.webp" alt="Pacote Premium">
+            </div>
+            <h3>Pacote Premium</h3>
+            <p class="service-type">Pacote completo em 3 etapas</p>
+            <p class="service-duration">6h</p>
+            <p class="service-description">Acompanhamento completo e personalizado</p>
+            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+          </div>
+
+          <!-- Laserterapia -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-image">
+              <img src="/src/assets/img/servicos/laserterapia.webp" alt="Laserterapia">
+            </div>
+            <h3>Laserterapia</h3>
+            <p class="service-type">Para mamães e bebês</p>
+            <p class="service-duration">30min</p>
+            <p class="service-description">Tratamento especializado com tecnologia avançada</p>
+            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+          </div>
+
+          <!-- Furo de Orelha Humanizado -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-image">
+              <img src="/src/assets/img/servicos/furo-humanizado.webp" alt="Furo de Orelha Humanizado">
+            </div>
+            <h3>Furo de Orelha Humanizado</h3>
+            <p class="service-type">Bebê e Adulto</p>
+            <p class="service-duration">1h</p>
+            <p class="service-description">Procedimento seguro e humanizado para todas as idades</p>
+            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+          </div>
+        </div>
+
+        <div class="services-more" data-aos="fade-up" data-aos-delay="700">
+          <h3>Cursos Profissionais</h3>
+          <div class="professional-courses">
+            <div class="course-item">
+              <div class="course-image">
+                <img src="/src/assets/img/servicos/curso-furo-humanizado.webp" alt="Curso de Furo Humanizado">
+              </div>
+              <div class="course-content">
+                <span class="course-name">Curso de Furo Humanizado - Presencial</span>
+                <span class="course-duration">5h</span>
+              </div>
+            </div>
+            <div class="course-item">
+              <div class="course-image">
+                <img src="/src/assets/img/servicos/curso-aleitamento-materno-presencial.webp" alt="Curso de Aleitamento Materno">
+              </div>
+              <div class="course-content">
+                <span class="course-name">Curso de Aleitamento Materno - Presencial</span>
+                <span class="course-duration">8h</span>
+              </div>
+            </div>
+            <div class="course-item">
+              <div class="course-image">
+                <img src="/src/assets/img/servicos/curso-cuidado-bebes.webp" alt="Curso de Cuidados com Bebês">
+              </div>
+              <div class="course-content">
+                <span class="course-name">Curso de Cuidados com Bebês - Presencial</span>
+                <span class="course-duration">5h</span>
+              </div>
+            </div>
+          </div>
+          <router-link to="/servicos" class="services-all-cta">Ver Todos os Serviços</router-link>
+        </div>
+      </div>
+    </section>
+
     <!-- Seção Sobre -->
     <section class="about-section">
       <div class="about-container">
@@ -515,6 +633,349 @@ export default {
 
   .highlight-card {
     padding: 1.5rem;
+  }
+}
+
+.services-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 6rem 0;
+  position: relative;
+}
+
+.services-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.services-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text);
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.service-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(161, 123, 165, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.service-card.featured {
+  border: 2px solid var(--color-primary);
+  background: linear-gradient(135deg, #fff 0%, #f8f9ff 100%);
+}
+
+.service-card.premium {
+  border: 2px solid var(--color-accent);
+  background: linear-gradient(135deg, #fff 0%, #fff8f0 100%);
+}
+
+.service-card.premium .service-image img {
+  border: 2px solid var(--color-accent);
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.05);
+}
+
+.service-card:hover .service-image {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.service-type {
+  font-size: 1rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.service-duration {
+  font-size: 1.125rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(243, 156, 18, 0.1);
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.service-cta {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid var(--color-primary);
+}
+
+.service-cta:hover {
+  background: transparent;
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.service-card.premium .service-cta {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.service-card.premium .service-cta:hover {
+  background: transparent;
+  color: var(--color-accent);
+}
+
+.services-more {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(161, 123, 165, 0.1);
+}
+
+.services-more h3 {
+  font-size: 1.75rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.professional-courses {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.course-item {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+  border-left: 4px solid var(--color-primary);
+  gap: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.course-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.course-image {
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.course-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  gap: 1rem;
+}
+
+.course-name {
+  font-weight: 500;
+  color: var(--color-primary-dark);
+  flex: 1;
+}
+
+.course-duration {
+  font-weight: 600;
+  color: var(--color-accent);
+  background: rgba(243, 156, 18, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.services-all-cta {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--color-primary-dark);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid var(--color-primary-dark);
+}
+
+.services-all-cta:hover {
+  background: transparent;
+  color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+/* Responsividade para Serviços */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 4rem 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .service-card {
+    padding: 2rem;
+  }
+
+  .service-image {
+    height: 180px;
+  }
+
+  .services-more {
+    padding: 2rem;
+  }
+
+  .course-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .course-image {
+    width: 100px;
+    height: 75px;
+  }
+
+  .course-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .course-name {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-container {
+    padding: 0 1.5rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .service-image {
+    height: 160px;
+    margin-bottom: 1rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .services-more {
+    padding: 1.5rem;
+  }
+
+  .services-more h3 {
+    font-size: 1.5rem;
   }
 }
 
