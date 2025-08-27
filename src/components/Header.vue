@@ -127,6 +127,7 @@ export default {
 .brand-subtitle {
   color: var(--color-secondary);
   font-size: 0.85rem;
+  margin-bottom: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
