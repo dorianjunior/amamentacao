@@ -15,6 +15,7 @@ import Faq from "./views/Faq.vue";
 import ConsultoriaAleitamento from "./views/services/ConsultoriaAleitamento.vue";
 import FuroHumanizado from "./views/services/FuroHumanizado.vue";
 import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
+import CursoGestantes from "./views/services/CursoGestantes.vue";
 
 const routes = [
     {
@@ -57,6 +58,11 @@ const routes = [
     { path: "/servicos/home-care-materno", component: HomeCareMaterno, meta: {
             title: "Home Care Materno Infantil | Enfª Glacy Song",
             description: "Home Care materno infantil especializado em Florianópolis. Cuidado integral para mães e bebês no pós-parto, massagem terapêutica, laserterapia, suporte à amamentação e orientações sobre cuidados com recém-nascidos no conforto do seu lar.",
+        }
+    },
+    { path: "/servicos/curso-gestantes", component: CursoGestantes, meta: {
+            title: "Curso para Gestantes e Casais | Enfª Glacy Song",
+            description: "Oficina personalizada de cuidados com o bebê para gestantes e casais em Florianópolis. Preparação afetiva, prática e segura para a chegada do bebê com 3h de duração. Plano de parto, amamentação, primeiros cuidados e muito mais.",
         }
     },
 ];

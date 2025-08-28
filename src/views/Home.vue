@@ -153,7 +153,7 @@
             <p class="service-type">Preparação completa</p>
             <p class="service-duration">3h</p>
             <p class="service-description">Preparação para receber seu bebê com segurança</p>
-            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/curso-gestantes" class="service-cta">Mais Informações</router-link>
           </div>
 
           <!-- Pacote Premium -->
