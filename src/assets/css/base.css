@@ -28,10 +28,25 @@
   --color-success: #27AE60;         /* Verde para elementos positivos */
   --color-warm: #F39C12;            /* Dourado suave para destaques calorosos */
   --color-neutral: #7F8C8D;         /* Cinza para textos secundários */
+  
+  /* Cores para o background */
+  --color-background: #FEFAFF;      /* Branco com leve tom lilás */
+  --color-background-light: #FFFFFF; /* Branco puro */
+  --color-text: #4A3E4C;           /* Texto principal */
+  --color-text-light: #7D657F;     /* Texto secundário */
+  --color-white: #FFFFFF;          /* Branco */
 }
 
-body {
+* {
+  box-sizing: border-box;
+}
+
+html, body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: var(--color-light);
   color: var(--color-dark);
+  overflow-x: hidden; /* Apenas impede scroll horizontal */
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

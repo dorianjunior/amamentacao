@@ -260,6 +260,8 @@ export default {
 .about-page {
   min-height: 100vh;
   background: var(--color-background);
+  overflow-x: hidden; /* Evita scroll horizontal */
+  width: 100%;
 }
 
 /* Hero Section */
@@ -270,7 +272,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden; /* Contém os elementos flutuantes */
 }
 
 .hero-waves {
@@ -287,6 +289,7 @@ export default {
   width: 100%;
   height: 200px;
   margin-bottom: -7px;
+  overflow: hidden; /* Evita que as ondas causem overflow */
 }
 
 .parallax > use {
@@ -315,10 +318,10 @@ export default {
 
 @keyframes move-forever {
   0% {
-    transform: translate3d(-90px,0,0);
+    transform: translate3d(-50px,0,0);
   }
   100% { 
-    transform: translate3d(85px,0,0);
+    transform: translate3d(50px,0,0);
   }
 }
 
@@ -362,7 +365,7 @@ export default {
   width: 80px;
   height: 80px;
   top: 20%;
-  left: 10%;
+  left: 5%;
   animation-delay: 0s;
 }
 
@@ -370,7 +373,7 @@ export default {
   width: 120px;
   height: 120px;
   top: 60%;
-  right: 15%;
+  right: 5%;
   animation-delay: 2s;
 }
 
@@ -378,7 +381,7 @@ export default {
   width: 60px;
   height: 60px;
   top: 80%;
-  left: 20%;
+  left: 15%;
   animation-delay: 4s;
 }
 
@@ -391,19 +394,19 @@ export default {
 
 .heart-1 {
   top: 15%;
-  right: 20%;
+  right: 10%;
   animation-delay: 1s;
 }
 
 .heart-2 {
   top: 70%;
-  left: 15%;
+  left: 10%;
   animation-delay: 3s;
 }
 
 .heart-3 {
   top: 40%;
-  right: 10%;
+  right: 5%;
   animation-delay: 5s;
 }
 
