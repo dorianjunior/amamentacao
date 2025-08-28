@@ -196,7 +196,7 @@
         <div class="services-more" data-aos="fade-up" data-aos-delay="700">
           <h3>Cursos Profissionais</h3>
           <div class="professional-courses">
-            <div class="course-item">
+            <router-link to="/cursos/furo-humanizado" class="course-item">
               <div class="course-image">
                 <img src="/src/assets/img/servicos/curso-furo-humanizado.webp" alt="Curso de Furo Humanizado">
               </div>
@@ -204,8 +204,8 @@
                 <span class="course-name">Curso de Furo Humanizado - Presencial</span>
                 <span class="course-duration">5h</span>
               </div>
-            </div>
-            <div class="course-item">
+            </router-link>
+            <router-link to="/cursos/formacao-consultores" class="course-item">
               <div class="course-image">
                 <img src="/src/assets/img/servicos/curso-aleitamento-materno-presencial.webp" alt="Curso de Aleitamento Materno">
               </div>
@@ -213,8 +213,8 @@
                 <span class="course-name">Curso de Aleitamento Materno - Presencial</span>
                 <span class="course-duration">8h</span>
               </div>
-            </div>
-            <div class="course-item">
+            </router-link>
+            <router-link to="/cursos/cuidados-bebes" class="course-item">
               <div class="course-image">
                 <img src="/src/assets/img/servicos/curso-cuidado-bebes.webp" alt="Curso de Cuidados com Bebês">
               </div>
@@ -222,7 +222,7 @@
                 <span class="course-name">Curso de Cuidados com Bebês - Presencial</span>
                 <span class="course-duration">5h</span>
               </div>
-            </div>
+            </router-link>
           </div>
           <router-link to="/servicos" class="services-all-cta">Ver Todos os Serviços</router-link>
         </div>

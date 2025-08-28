@@ -34,10 +34,20 @@
             <div class="footer-services" data-aos="fade-up" data-aos-delay="200">
               <h4 class="footer-section-title">Serviços</h4>
               <ul class="footer-nav">
-                <li><span class="footer-service">Consultoria em Aleitamento</span></li>
-                <li><span class="footer-service">Furo de Orelha Humanizado</span></li>
-                <li><span class="footer-service">Home Care Materno Infantil</span></li>
-                <li><span class="footer-service">Cursos e Workshops</span></li>
+                <li><router-link to="/servicos/consultoria-aleitamento" class="footer-link">Consultoria em Aleitamento</router-link></li>
+                <li><router-link to="/servicos/furo-humanizado" class="footer-link">Furo de Orelha Humanizado</router-link></li>
+                <li><router-link to="/servicos/home-care-materno" class="footer-link">Home Care Materno Infantil</router-link></li>
+                <li><router-link to="/servicos/curso-gestantes" class="footer-link">Curso para Gestantes</router-link></li>
+              </ul>
+            </div>
+
+            <!-- Cursos profissionais -->
+            <div class="footer-courses" data-aos="fade-up" data-aos-delay="250">
+              <h4 class="footer-section-title">Cursos</h4>
+              <ul class="footer-nav">
+                <li><router-link to="/cursos/formacao-consultores" class="footer-link">Aleitamento Materno</router-link></li>
+                <li><router-link to="/cursos/cuidados-bebes" class="footer-link">Cuidados com Bebês</router-link></li>
+                <li><router-link to="/cursos/furo-humanizado" class="footer-link">Furo Humanizado</router-link></li>
               </ul>
             </div>
 
@@ -222,8 +232,8 @@ export default {
   margin: 0 auto;
   padding: 0 2rem;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
-  gap: 3rem;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+  gap: 2.5rem;
 }
 
 .footer-brand {
@@ -298,12 +308,6 @@ export default {
 .footer-link:hover {
   color: white;
   transform: translateX(5px);
-}
-
-.footer-service {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 0.9rem;
-  display: block;
 }
 
 .contact-info {
@@ -644,13 +648,14 @@ export default {
 /* Responsividade para tablets */
 @media (max-width: 1024px) and (min-width: 769px) {
   .footer-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
   }
   
-  .footer-services {
-    grid-column: span 2;
+  .footer-brand {
+    grid-column: span 3;
     text-align: center;
+    margin-bottom: 2rem;
   }
 }
 
