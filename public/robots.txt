@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: http://amamentacaoflorianopolis.com.br/sitemap.xml
+
+# Directories
+Allow: /src/assets/img/
+Allow: /src/assets/files/
+
+# Specific pages
+Allow: /sobre
+Allow: /servicos
+Allow: /contato
+Allow: /faq
+Allow: /cursos/
+Allow: /eventos/
+
+# Disallow admin or sensitive areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl delay (optional)
+Crawl-delay: 1

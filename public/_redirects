@@ -1,0 +1,10 @@
+# Redirects for SPA routing
+/*    /index.html   200
+
+# Force HTTPS (if not using SSL termination)
+http://amamentacaoflorianopolis.com.br/*  https://amamentacaoflorianopolis.com.br/:splat  301!
+
+# Legacy redirects (if you had old URLs)
+/amamentacao  /servicos/consultoria-aleitamento-materno  301
+/bebe  /servicos/curso-gestantes  301
+/furo  /servicos/furo-humanizado  301

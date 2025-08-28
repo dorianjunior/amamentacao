@@ -18,9 +18,6 @@ import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 import CursoGestantes from "./views/services/CursoGestantes.vue";
 import Laserterapia from "./views/services/Laserterapia.vue";
 import PacotePremium from "./views/services/PacotePremium.vue";
-import CuidadosBebesFormacao from "./views/cursos/CuidadosBebesFormacao.vue";
-import FuroHumanizadoFormacao from "./views/cursos/FuroHumanizadoFormacao.vue";
-import FormacaoConsultoresCurso from "./views/cursos/FormacaoConsultoresCurso.vue";
 import ImersaoProfissao from "./views/eventos/ImersaoProfissao.vue";
 import FuroHumanizadoCurso from "./views/eventos/FuroHumanizadoCurso.vue";
 import CuidadosBebes from "./views/eventos/CuidadosBebes.vue";
@@ -34,7 +31,7 @@ const routes = [
                 "Enfermeira Glacy Song atua como consultora em aleitamento materno, laserterapeuta, consultora de cuidados com bebês, e realiza furo de orelha humanizado para adultos e bebês. Administra cursos para profissionais da saúde: Curso de Furo Humanizado Presencial, Curso de Cuidados com Bebês Presencial e Curso de Capacitação de Consultores em Aleitamento Materno.",
         }
     },
-    { path: "/sobremim", component: About, meta: {
+    { path: "/sobre", component: About, meta: {
             title: "Sobre mim | Enfª Glacy Song",
             description: "Enfermeira Glacy Song, pós-graduada em Saúde da Mulher e Saúde da Família, é Consultora em Aleitamento Materno e Cuidados com Bebês, Laserterapeuta e realiza Furo de Orelha Humanizado. Oferece atendimentos humanizados, home care, laserterapia, furo de orelha e cursos para gestantes e profissionais da saúde. Com técnica, empatia e escuta ativa, acolhe mães e famílias com segurança e dedicação.",
         }
@@ -49,12 +46,12 @@ const routes = [
             description: "Rua Bento Gonçalves, 174 Centro, Florianópolis - SC, 88010-080; WhatsApp - (48) 99668-0096; Instagram - @amamentacao.florianopolis; TikTok - @amamentacaoflorianopolis",
         }
     },
-    { path: "/perguntasfrequentes", component: Faq, meta: {
+    { path: "/faq", component: Faq, meta: {
             title: "Perguntas Frequentes | Enfª Glacy Song",
             description: "É normal sentir dor ao amamentar? É normal sentir um leve desconforto ou sensibilidade nos primeiros dias, mas não é normal sentir dor ao amamentar nem antes, durante ou depois. Se você está sentindo dor, entre em contato comigo, eu posso ajudar! O que é o furo de orelha humanizado?",
         }
     },
-    { path: "/servicos/consultoria-aleitamento", component: ConsultoriaAleitamento, meta: {
+    { path: "/servicos/consultoria-aleitamento-materno", component: ConsultoriaAleitamento, meta: {
             title: "Consultoria em Aleitamento Materno | Enfª Glacy Song",
             description: "Consultoria especializada em aleitamento materno com a Enfª Glacy Song. Avaliação completa, orientações técnicas, suporte emocional e acompanhamento personalizado para gestantes e puérperas. Atendimento presencial, domiciliar ou online em Florianópolis.",
         }
@@ -84,17 +81,17 @@ const routes = [
             description: "Pacote Premium: cuidado integral do pré-natal ao pós-parto. Curso exclusivo, consultorias de amamentação, home care, suporte via WhatsApp, deslocamento incluído e kit Maternal Baby. Experiência completa em 3 etapas para famílias que valorizam excelência.",
         }
     },
-    { path: "/cursos/formacao-consultores", component: FormacaoConsultoresCurso, meta: {
+    { path: "/cursos/formacao-consultores", component: () => import('./views/cursos/FormacaoConsultoresCurso.vue'), meta: {
             title: "Formação de Consultores em Aleitamento Materno | Enfª Glacy Song",
             description: "Formação de Consultores em Aleitamento Materno para graduandos e profissionais da área da saúde. 8 horas de curso com base científica sólida e abordagem prática em Florianópolis.",
         }
     },
-    { path: "/cursos/cuidados-bebes", component: CuidadosBebesFormacao, meta: {
+    { path: "/cursos/cuidados-bebes", component: () => import('./views/cursos/CuidadosBebesFormacao.vue'), meta: {
             title: "Formação em Cuidados com Bebês - Presencial | Enfª Glacy Song",
             description: "Formação técnica e afetiva em Cuidados com Bebês para profissionais da saúde e cuidadores. Curso presencial de 5 horas em Florianópolis com abordagem baseada em evidências e prática humanizada.",
         }
     },
-    { path: "/cursos/furo-humanizado", component: FuroHumanizadoFormacao, meta: {
+    { path: "/cursos/furo-humanizado", component: () => import('./views/cursos/FuroHumanizadoFormacao.vue'), meta: {
             title: "Curso de Furo Humanizado - Presencial | Enfª Glacy Song",
             description: "Curso de Furo Humanizado presencial em Florianópolis. Formação completa de 5 horas com técnicas especializadas, conhecimento anatômico, biossegurança e humanização no atendimento. Para profissionais que desejam atuar com excelência na área.",
         }
@@ -135,15 +132,45 @@ const router = createRouter({
 
 
 router.beforeEach((to, from, next) => {
+    // Atualizar título da página
     if (to.meta.title) {
         document.title = to.meta.title;
     }
+    
+    // Atualizar meta description
     if (to.meta.description) {
         const metaDescription = document.querySelector('meta[name="description"]');
         if (metaDescription) {
             metaDescription.setAttribute('content', to.meta.description);
         }
     }
+    
+    // Atualizar canonical URL
+    const baseUrl = 'http://amamentacaoflorianopolis.com.br';
+    const canonicalUrl = baseUrl + to.path;
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+        canonicalLink.setAttribute('href', canonicalUrl);
+    } else {
+        canonicalLink = document.createElement('link');
+        canonicalLink.setAttribute('rel', 'canonical');
+        canonicalLink.setAttribute('href', canonicalUrl);
+        document.head.appendChild(canonicalLink);
+    }
+    
+    // Atualizar Open Graph URL
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) {
+        ogUrl.setAttribute('content', canonicalUrl);
+    }
+    
+    // Atualizar Twitter URL
+    let twitterUrl = document.querySelector('meta[name="twitter:url"]');
+    if (twitterUrl) {
+        twitterUrl.setAttribute('content', canonicalUrl);
+    }
+    
     next();
 });
 
