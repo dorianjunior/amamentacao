@@ -678,7 +678,7 @@ export default {
 
 .contact-info h2 {
   font-size: 2.5rem;
-  color: var(--color-primary-light);
+  color: var(--color-primary-dark);
   margin-bottom: 1.5rem;
   font-weight: 700;
   display: flex;
