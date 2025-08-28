@@ -1310,6 +1310,8 @@ export default {
   border-left: 4px solid var(--color-primary);
   gap: 1.5rem;
   transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .course-item:hover {
