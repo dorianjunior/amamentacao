@@ -44,11 +44,169 @@
         <div class="description-content" data-aos="fade-up">
           <h2>Sobre o Curso</h2>
           <div class="description-text">
-            <p><strong>Aprenda a técnica do furo humanizado</strong> com cuidado, segurança e acolhimento tanto para bebês quanto para adultos.</p>
+            <p><strong>Curso de Furo Humanizado - Bebê e Adulto 👂💎</strong></p>
             
-            <p>Este curso especializado ensina as melhores práticas para realizar furos de orelha de forma humanizada, priorizando o bem-estar, conforto e segurança dos pacientes.</p>
+            <p><strong>Turma reduzida até 10 alunas</strong> para melhor aprendizado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PDF Download Section -->
+    <section class="pdf-section">
+      <div class="pdf-container">
+        <div class="pdf-content" data-aos="fade-up">
+          <div class="pdf-card">
+            <div class="pdf-icon">
+              <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="pdf-info">
+              <h3>Material Informativo</h3>
+              <p>Para mais informações, acesse o PDF abaixo.</p>
+              <div class="pdf-details">
+                <span class="pdf-name">Curso De Capacitação de Furo de Orelha Humanizado</span>
+                <span class="pdf-size">13.99MB</span>
+              </div>
+            </div>
+            <a href="/docs/curso_furo_humanizado.pdf" 
+               download="Curso_Furo_Humanizado.pdf" 
+               class="pdf-download-btn">
+              <i class="fas fa-download"></i>
+              Download PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section class="topics-section">
+      <div class="topics-container">
+        <div class="topics-content" data-aos="fade-up">
+          <h2><i class="fas fa-list-ul"></i> Conteúdo Programático</h2>
+          <div class="topics-grid">
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="100">
+              <i class="fas fa-question-circle"></i>
+              <span>O que é o furo humanizado</span>
+            </div>
             
-            <p>Com foco na técnica adequada, higiene e cuidados especiais, você estará preparado para oferecer este serviço com excelência e responsabilidade.</p>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="150">
+              <i class="fas fa-ear-listen"></i>
+              <span>Anatomia básica da orelha</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-hand-dots"></i>
+              <span>Auriculoterapia básica</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="250">
+              <i class="fas fa-shield-virus"></i>
+              <span>Sistema Imunológico, cicatrização, inflamação e complicações</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-tools"></i>
+              <span>Técnicas de furo humanizado (System 75 e cateter sobre agulha)</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="350">
+              <i class="fas fa-ruler"></i>
+              <span>Técnicas para medição, espaçamento e visagismo da orelha</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-heart"></i>
+              <span>Humanização no serviço e práticas de alívio da dor</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="450">
+              <i class="fas fa-gavel"></i>
+              <span>Regulamentação da Anvisa, leis e Coren</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="500">
+              <i class="fas fa-gem"></i>
+              <span>Joias e visagismo</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="550">
+              <i class="fas fa-user-md"></i>
+              <span>Cuidados com o pré, durante e pós-perfuração</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="600">
+              <i class="fas fa-truck"></i>
+              <span>Fornecedores</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="650">
+              <i class="fas fa-file-contract"></i>
+              <span>Construção de protocolos, fichas de anamnese, termo de autorização e acompanhamento</span>
+            </div>
+            
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="700">
+              <i class="fas fa-chart-line"></i>
+              <span>Marketing, gestão de empresa e precificação</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Includes Section -->
+    <section class="includes-section">
+      <div class="includes-container">
+        <div class="includes-content" data-aos="fade-up">
+          <h2><i class="fas fa-check-circle"></i> O que está incluso</h2>
+          <div class="includes-list">
+            <div class="include-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="include-icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <h3>Apostila impressa</h3>
+              <p>Material de apoio impresso completo para consulta e estudos</p>
+            </div>
+            
+            <div class="include-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="include-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <h3>Materiais teórico e práticos</h3>
+              <p>Todo material necessário para o aprendizado prático e teórico</p>
+            </div>
+            
+            <div class="include-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="include-icon">
+                <i class="fas fa-box"></i>
+              </div>
+              <h3>Kit Perfuração</h3>
+              <p>Kit completo com instrumentos profissionais para perfuração</p>
+            </div>
+            
+            <div class="include-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="include-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h3>Certificado de conclusão de curso</h3>
+              <p>Certificado oficial de conclusão do curso de capacitação</p>
+            </div>
+            
+            <div class="include-item" data-aos="fade-up" data-aos-delay="500">
+              <div class="include-icon">
+                <i class="fas fa-coffee"></i>
+              </div>
+              <h3>Coffee Break</h3>
+              <p>Pausa para café e networking entre as participantes</p>
+            </div>
+            
+            <div class="include-item" data-aos="fade-up" data-aos-delay="600">
+              <div class="include-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <h3>Suporte no WhatsApp até 02 meses</h3>
+              <p>Acompanhamento e suporte durante 2 meses após a finalização do curso</p>
+            </div>
           </div>
         </div>
       </div>
@@ -70,18 +228,18 @@
             
             <div class="info-item" data-aos="fade-up" data-aos-delay="200">
               <div class="info-icon">
-                <i class="fas fa-users"></i>
+                <i class="fas fa-map-marker-alt"></i>
               </div>
-              <h3>Público-Alvo</h3>
-              <p>Profissionais da área de estética e beleza</p>
+              <h3>Local</h3>
+              <p>Hotel Faial<br>R. Felipe Schmidt, 603 - Centro<br>Florianópolis - SC, 88010-001</p>
             </div>
             
             <div class="info-item" data-aos="fade-up" data-aos-delay="300">
               <div class="info-icon">
-                <i class="fas fa-certificate"></i>
+                <i class="fas fa-users"></i>
               </div>
-              <h3>Certificação</h3>
-              <p>Certificado de Furo Humanizado</p>
+              <h3>Turma Reduzida</h3>
+              <p>Até 10 alunas para melhor aprendizado</p>
             </div>
           </div>
         </div>
@@ -95,7 +253,7 @@
           <div class="contact-info" data-aos="fade-right">
             <h2><i class="fas fa-phone"></i> Informações e Inscrições</h2>
             <p class="contact-description">
-              Entre em contato para mais informações sobre o Curso de Furo Humanizado.
+              <strong>Para inscrição, entre em contato pelo WhatsApp (48) 99668-0096.</strong>
             </p>
             
             <div class="contact-methods">
@@ -133,7 +291,7 @@
                  target="_blank" 
                  class="whatsapp-cta">
                 <i class="fab fa-whatsapp"></i>
-                Inscrever-se pelo WhatsApp
+                Quero me especializar!
               </a>
               <router-link to="/servicos" class="back-link">
                 <i class="fas fa-arrow-left"></i>
@@ -149,7 +307,11 @@
 
 <script>
 export default {
-  name: 'FuroHumanizadoCurso'
+  name: 'FuroHumanizadoCurso',
+  mounted() {
+    // Página sem vídeo, apenas para manter consistência
+    console.log('Página do Curso de Furo Humanizado carregada');
+  }
 }
 </script>
 
@@ -306,6 +468,248 @@ export default {
 .description-text strong {
   color: var(--color-primary);
   font-weight: 600;
+}
+
+/* PDF Section */
+.pdf-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.pdf-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.pdf-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.3s ease;
+}
+
+.pdf-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.pdf-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.pdf-info {
+  flex: 1;
+}
+
+.pdf-info h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.pdf-info p {
+  color: var(--color-text);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.pdf-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pdf-name {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}
+
+.pdf-size {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.pdf-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.pdf-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+}
+
+.pdf-download-btn i {
+  font-size: 1.1rem;
+}
+
+/* Topics Section */
+.topics-section {
+  padding: 6rem 0;
+  background: white;
+}
+
+.topics-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.topics-content h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.topics-content h2 i {
+  color: var(--color-primary-light);
+  font-size: 2rem;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.topic-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--color-primary);
+}
+
+.topic-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  background: white;
+}
+
+.topic-item i {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.topic-item span {
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.4;
+}
+
+/* Includes Section */
+.includes-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.includes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.includes-content h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.includes-content h2 i {
+  color: var(--color-primary-light);
+  font-size: 2rem;
+}
+
+.includes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.include-item {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(161, 123, 165, 0.1);
+}
+
+.include-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.include-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.include-item h3 {
+  font-size: 1.25rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.include-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin: 0;
 }
 
 /* Info Section */
@@ -573,15 +977,63 @@ export default {
   }
   
   .description-section,
+  .pdf-section,
+  .topics-section,
+  .includes-section,
   .info-section,
   .contact-section {
     padding: 4rem 0;
   }
   
   .description-container,
+  .pdf-container,
+  .topics-container,
+  .includes-container,
   .info-container,
   .contact-container {
     padding: 0 1rem;
+  }
+
+  .pdf-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .pdf-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .topics-content h2,
+  .includes-content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .topics-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .topic-item {
+    padding: 1rem;
+  }
+
+  .includes-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .include-item {
+    padding: 2rem;
+  }
+
+  .include-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
   }
   
   .info-item {
@@ -603,9 +1055,26 @@ export default {
   }
   
   .description-content h2,
+  .topics-content h2,
+  .includes-content h2,
   .info-content h2,
   .contact-info h2 {
     font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .topic-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pdf-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .include-item h3 {
+    font-size: 1.1rem;
   }
   
   .info-item {
