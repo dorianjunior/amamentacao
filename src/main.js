@@ -16,6 +16,7 @@ import ConsultoriaAleitamento from "./views/services/ConsultoriaAleitamento.vue"
 import FuroHumanizado from "./views/services/FuroHumanizado.vue";
 import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 import CursoGestantes from "./views/services/CursoGestantes.vue";
+import Laserterapia from "./views/services/Laserterapia.vue";
 
 const routes = [
     {
@@ -63,6 +64,11 @@ const routes = [
     { path: "/servicos/curso-gestantes", component: CursoGestantes, meta: {
             title: "Curso para Gestantes e Casais | Enfª Glacy Song",
             description: "Oficina personalizada de cuidados com o bebê para gestantes e casais em Florianópolis. Preparação afetiva, prática e segura para a chegada do bebê com 3h de duração. Plano de parto, amamentação, primeiros cuidados e muito mais.",
+        }
+    },
+    { path: "/servicos/laserterapia", component: Laserterapia, meta: {
+            title: "Laserterapia para Mamães e Bebês | Enfª Glacy Song",
+            description: "Laserterapia especializada para mamães e bebês em Florianópolis. Tratamento indolor, seguro e eficaz para alívio de dores, cicatrização e bem-estar materno-infantil. Sessões de 30 minutos.",
         }
     },
 ];

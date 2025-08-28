@@ -76,7 +76,7 @@
             <p class="service-type">Para mamães e bebês</p>
             <p class="service-duration">30min</p>
             <p class="service-description">Tratamento especializado com tecnologia avançada</p>
-            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/laserterapia" class="service-cta">Mais Informações</router-link>
           </div>
 
           <!-- Furo de Orelha Humanizado -->
