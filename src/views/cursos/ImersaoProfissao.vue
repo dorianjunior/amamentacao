@@ -85,7 +85,7 @@
                 <span class="pdf-size">18.88MB</span>
               </div>
             </div>
-            <a href="/src/assets/share/imersao_profissional_materno_infantil.pdf" 
+            <a href="/docs/imersao_profissional_materno_infantil.pdf" 
                download="Imersao_Profissao_Materno_Infantil.pdf" 
                class="pdf-download-btn">
               <i class="fas fa-download"></i>
@@ -104,10 +104,29 @@
           <p class="video-description">Assista ao vídeo e saiba mais detalhes sobre nossa Imersão Profissão Materno Infantil</p>
           
           <div class="video-wrapper">
-            <video controls poster="/src/assets/img/servicos/curso-gestantes-casais-materiais.webp">
-              <source src="/src/assets/share/imersao_profissional_materno_infantil.mp4" type="video/mp4">
-              Seu navegador não suporta o elemento de vídeo.
+            <video 
+              controls 
+              preload="metadata"
+              poster="/banner.webp"
+              onError="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <source src="/videos/imersao_profissional_materno_infantil.mp4" type="video/mp4">
+              <p>Seu navegador não suporta o elemento de vídeo.</p>
             </video>
+            
+            <!-- Fallback para quando o vídeo não carrega -->
+            <div class="video-fallback" style="display: none;">
+              <div class="fallback-content">
+                <i class="fas fa-video"></i>
+                <h3>Vídeo Indisponível</h3>
+                <p>O vídeo não pôde ser carregado no momento.</p>
+                <a href="/videos/imersao_profissional_materno_infantil.mp4" 
+                   download 
+                   class="download-video-btn">
+                  <i class="fas fa-download"></i>
+                  Baixar Vídeo
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -209,7 +228,25 @@
 
 <script>
 export default {
-  name: 'ImersaoProfissao'
+  name: 'ImersaoProfissao',
+  mounted() {
+    // Verificar se o vídeo existe e pode ser carregado
+    const video = this.$el.querySelector('video');
+    if (video) {
+      video.addEventListener('error', () => {
+        console.log('Erro ao carregar vídeo, mostrando fallback');
+        video.style.display = 'none';
+        const fallback = video.nextElementSibling;
+        if (fallback) {
+          fallback.style.display = 'block';
+        }
+      });
+
+      video.addEventListener('loadeddata', () => {
+        console.log('Vídeo carregado com sucesso');
+      });
+    }
+  }
 }
 </script>
 
@@ -563,6 +600,53 @@ export default {
 .video-wrapper video:focus {
   outline: 3px solid var(--color-primary-light);
   outline-offset: 3px;
+}
+
+.video-fallback {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+  border: 2px dashed #dee2e6;
+}
+
+.fallback-content i {
+  font-size: 4rem;
+  color: var(--color-primary-light);
+  margin-bottom: 1rem;
+}
+
+.fallback-content h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+}
+
+.fallback-content p {
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.download-video-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.download-video-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
 }
 
 /* Info Section */
