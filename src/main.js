@@ -18,6 +18,10 @@ import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 import CursoGestantes from "./views/services/CursoGestantes.vue";
 import Laserterapia from "./views/services/Laserterapia.vue";
 import PacotePremium from "./views/services/PacotePremium.vue";
+import ImersaoProfissao from "./views/cursos/ImersaoProfissao.vue";
+import FormacaoConsultores from "./views/cursos/FormacaoConsultores.vue";
+import CuidadosBebes from "./views/cursos/CuidadosBebes.vue";
+import FuroHumanizadoCurso from "./views/cursos/FuroHumanizadoCurso.vue";
 
 const routes = [
     {
@@ -75,6 +79,26 @@ const routes = [
     { path: "/servicos/pacote-premium", component: PacotePremium, meta: {
             title: "Pacote Premium | Enfª Glacy Song",
             description: "Pacote Premium: cuidado integral do pré-natal ao pós-parto. Curso exclusivo, consultorias de amamentação, home care, suporte via WhatsApp, deslocamento incluído e kit Maternal Baby. Experiência completa em 3 etapas para famílias que valorizam excelência.",
+        }
+    },
+    { path: "/cursos/imersao-profissao", component: ImersaoProfissao, meta: {
+            title: "Imersão Profissão Materno Infantil | Enfª Glacy Song",
+            description: "Imersão Profissão Materno Infantil de 29 a 31 de agosto de 2025. Curso intensivo para profissionais que desejam se especializar na área materno-infantil. Conteúdo teórico e prático para atuação no mercado materno-infantil.",
+        }
+    },
+    { path: "/cursos/formacao-consultores", component: FormacaoConsultores, meta: {
+            title: "Curso de Formação de Consultores em Aleitamento Materno | Enfª Glacy Song",
+            description: "Curso de Formação de Consultores em Aleitamento Materno em 29 de agosto de 2025 no Hotel Faial, Florianópolis. Formação completa com conhecimento científico e prático para consultores especializados.",
+        }
+    },
+    { path: "/cursos/cuidados-bebes", component: CuidadosBebes, meta: {
+            title: "Curso de Cuidados com Bebês | Enfª Glacy Song",
+            description: "Curso de Cuidados com Bebês em 31 de agosto de 2025 no Hotel Faial, Florianópolis. Conhecimentos fundamentais sobre cuidados, higiene, alimentação e desenvolvimento infantil para pais e cuidadores.",
+        }
+    },
+    { path: "/cursos/furo-humanizado", component: FuroHumanizadoCurso, meta: {
+            title: "Curso de Furo Humanizado - Bebê e Adulto | Enfª Glacy Song",
+            description: "Curso de Furo Humanizado para bebês e adultos em 31 de agosto de 2025. Técnicas especializadas, cuidados, segurança e acolhimento para profissionais da área de estética e beleza.",
         }
     },
 ];
