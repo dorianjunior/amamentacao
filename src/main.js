@@ -18,12 +18,13 @@ import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 import CursoGestantes from "./views/services/CursoGestantes.vue";
 import Laserterapia from "./views/services/Laserterapia.vue";
 import PacotePremium from "./views/services/PacotePremium.vue";
-import ImersaoProfissao from "./views/eventos/ImersaoProfissao.vue";
-import FormacaoConsultores from "./views/eventos/FormacaoConsultores.vue";
-import CuidadosBebes from "./views/eventos/CuidadosBebes.vue";
 import CuidadosBebesFormacao from "./views/cursos/CuidadosBebesFormacao.vue";
-import FuroHumanizadoCurso from "./views/eventos/FuroHumanizadoCurso.vue";
 import FuroHumanizadoFormacao from "./views/cursos/FuroHumanizadoFormacao.vue";
+import FormacaoConsultoresCurso from "./views/cursos/FormacaoConsultoresCurso.vue";
+import ImersaoProfissao from "./views/eventos/ImersaoProfissao.vue";
+import FuroHumanizadoCurso from "./views/eventos/FuroHumanizadoCurso.vue";
+import CuidadosBebes from "./views/eventos/CuidadosBebes.vue";
+import FormacaoConsultores from "./views/eventos/FormacaoConsultores.vue";
 
 const routes = [
     {
@@ -83,7 +84,7 @@ const routes = [
             description: "Pacote Premium: cuidado integral do pré-natal ao pós-parto. Curso exclusivo, consultorias de amamentação, home care, suporte via WhatsApp, deslocamento incluído e kit Maternal Baby. Experiência completa em 3 etapas para famílias que valorizam excelência.",
         }
     },
-    { path: "/cursos/formacao-consultores", component: () => import('./views/cursos/FormacaoConsultoresCurso.vue'), meta: {
+    { path: "/cursos/formacao-consultores", component: FormacaoConsultoresCurso, meta: {
             title: "Formação de Consultores em Aleitamento Materno | Enfª Glacy Song",
             description: "Formação de Consultores em Aleitamento Materno para graduandos e profissionais da área da saúde. 8 horas de curso com base científica sólida e abordagem prática em Florianópolis.",
         }
@@ -118,12 +119,7 @@ const routes = [
             description: "Curso de Furo Humanizado para bebês e adultos em 31 de agosto de 2025. Técnicas especializadas, cuidados, segurança e acolhimento para profissionais da área de estética e beleza.",
         }
     },
-    // Rotas antigas mantidas para compatibilidade
-    { path: "/cursos/imersao-profissao", component: ImersaoProfissao },
-    { path: "/formacao/cuidados-bebes", component: CuidadosBebesFormacao },
 ];
-
-//
 
 const router = createRouter({
     history: createWebHistory(),

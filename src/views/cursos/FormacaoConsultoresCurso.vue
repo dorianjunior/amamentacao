@@ -687,18 +687,18 @@ export default {
 }
 
 .include-item {
-  background: #f8f9fa;
+  background: white;
   padding: 2.5rem;
   border-radius: 20px;
   text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
-  border-left: 4px solid var(--color-primary);
+  border: 1px solid rgba(161, 123, 165, 0.1);
 }
 
 .include-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  background: white;
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
 
 .include-icon {
