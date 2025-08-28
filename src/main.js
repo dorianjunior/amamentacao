@@ -17,6 +17,7 @@ import FuroHumanizado from "./views/services/FuroHumanizado.vue";
 import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 import CursoGestantes from "./views/services/CursoGestantes.vue";
 import Laserterapia from "./views/services/Laserterapia.vue";
+import PacotePremium from "./views/services/PacotePremium.vue";
 
 const routes = [
     {
@@ -69,6 +70,11 @@ const routes = [
     { path: "/servicos/laserterapia", component: Laserterapia, meta: {
             title: "Laserterapia para Mamães e Bebês | Enfª Glacy Song",
             description: "Laserterapia especializada para mamães e bebês em Florianópolis. Tratamento indolor, seguro e eficaz para alívio de dores, cicatrização e bem-estar materno-infantil. Sessões de 30 minutos.",
+        }
+    },
+    { path: "/servicos/pacote-premium", component: PacotePremium, meta: {
+            title: "Pacote Premium | Enfª Glacy Song",
+            description: "Pacote Premium: cuidado integral do pré-natal ao pós-parto. Curso exclusivo, consultorias de amamentação, home care, suporte via WhatsApp, deslocamento incluído e kit Maternal Baby. Experiência completa em 3 etapas para famílias que valorizam excelência.",
         }
     },
 ];

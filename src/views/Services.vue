@@ -64,7 +64,7 @@
             <p class="service-type">Pacote completo em 3 etapas</p>
             <p class="service-duration">6h</p>
             <p class="service-description">Acompanhamento completo e personalizado</p>
-            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/pacote-premium" class="service-cta">Mais Informações</router-link>
           </div>
 
           <!-- Laserterapia -->
