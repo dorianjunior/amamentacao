@@ -23,7 +23,7 @@
           <div class="hero-info" data-aos="fade-up" data-aos-delay="800">
             <p class="info-name">Enfª Glacy Song</p>
             <p class="info-coren">COREN-SC 655.878</p>
-            <p class="info-location">Atendimentos em Florianópolis e online para todo o Brasil</p>
+            <p class="info-location">Atendimentos em Florianópolis e online para todo o mundo</p>
           </div>
         </div>
       </div>
@@ -613,6 +613,82 @@
                 <i class="fas fa-envelope"></i>
                 Entre em Contato
               </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-header" data-aos="fade-up">
+          <h2 class="section-title">Contato</h2>
+          <p class="contact-subtitle">Entre em contato para agendar sua consulta ou tirar suas dúvidas</p>
+        </div>
+
+        <div class="contact-content">
+          <!-- Informações de Contato -->
+          <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-details">
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/5548996680096" target="_blank" class="contact-link">
+                  (48) 9 9668-0096
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>E-mail</h3>
+                <a href="mailto:glacy.consultoria.am@gmail.com" class="contact-link">
+                  glacy.consultoria.am@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Endereço</h3>
+                <div class="address">
+                  <p>R. Bento Gonçalves, 174</p>
+                  <p>Centro</p>
+                  <p>Florianópolis - SC</p>
+                  <p>CEP: 88010-080</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-cta d-none">
+              <a href="https://wa.me/5548996680096" target="_blank" class="whatsapp-cta">
+                <i class="fab fa-whatsapp"></i>
+                Agendar pelo WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Mapa -->
+          <div class="contact-map" data-aos="fade-left" data-aos-delay="400">
+            <div class="map-container">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.994384958983!2d-48.55223492533194!3d-27.596880576208384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952737b0e6bb6db9%3A0x7f2e7b6da1c4a9b5!2sR.%20Bento%20Gon%C3%A7alves%2C%20174%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088010-080!5e0!3m2!1spt-BR!2sbr!4v1735347234567!5m2!1spt-BR!2sbr"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
           </div>
         </div>
@@ -2564,6 +2640,231 @@ blockquote {
   }
 
   .instagram-btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* === SEÇÃO CONTATO === */
+.contact-section {
+  padding: 6rem 0;
+  background: linear-gradient(
+    135deg,
+    var(--color-background) 0%,
+    var(--color-background-light) 100%
+  );
+  position: relative;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, var(--color-primary)08 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, var(--color-secondary)08 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  margin-top: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-icon i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.contact-details h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.contact-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--color-primary-dark);
+}
+
+.address p {
+  margin: 0.25rem 0;
+  color: var(--color-text);
+}
+
+.contact-cta {
+  margin-top: 1rem;
+}
+
+.whatsapp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-cta i {
+  font-size: 1.25rem;
+}
+
+.contact-map {
+  height: 500px;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.map-container iframe {
+  border-radius: 1rem;
+  filter: saturate(0.8) brightness(0.95);
+  transition: filter 0.3s ease;
+}
+
+.map-container:hover iframe {
+  filter: saturate(1) brightness(1);
+}
+
+/* Responsividade para Contato */
+@media (max-width: 1024px) {
+  .contact-content {
+    gap: 3rem;
+  }
+  
+  .contact-map {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 4rem 0;
+  }
+  
+  .contact-container {
+    padding: 0 1.5rem;
+  }
+  
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .contact-item {
+    padding: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contact-icon i {
+    font-size: 1.25rem;
+  }
+  
+  .contact-map {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 0 1rem;
+  }
+  
+  .contact-item {
+    padding: 1.25rem;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.1rem;
+  }
+  
+  .whatsapp-cta {
     padding: 0.875rem 1.5rem;
     font-size: 0.9rem;
   }
