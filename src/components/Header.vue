@@ -23,7 +23,7 @@
             <router-link to="/servicos" @click="closeMenu">Serviços</router-link>
           </li>
           <li>
-            <router-link to="/perguntasfrequentes" @click="closeMenu">FAQ</router-link>
+            <router-link to="/perguntasfrequentes" @click="closeMenu">Perguntas Frequentes</router-link>
           </li>
           <li>
             <router-link to="/contato" class="contact-link" @click="closeMenu">Contato</router-link>
