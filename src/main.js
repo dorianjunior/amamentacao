@@ -18,10 +18,12 @@ import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 import CursoGestantes from "./views/services/CursoGestantes.vue";
 import Laserterapia from "./views/services/Laserterapia.vue";
 import PacotePremium from "./views/services/PacotePremium.vue";
-import ImersaoProfissao from "./views/cursos/ImersaoProfissao.vue";
-import FormacaoConsultores from "./views/cursos/FormacaoConsultores.vue";
-import CuidadosBebes from "./views/cursos/CuidadosBebes.vue";
-import FuroHumanizadoCurso from "./views/cursos/FuroHumanizadoCurso.vue";
+import ImersaoProfissao from "./views/eventos/ImersaoProfissao.vue";
+import FormacaoConsultores from "./views/eventos/FormacaoConsultores.vue";
+import CuidadosBebes from "./views/eventos/CuidadosBebes.vue";
+import CuidadosBebesFormacao from "./views/cursos/CuidadosBebesFormacao.vue";
+import FuroHumanizadoCurso from "./views/eventos/FuroHumanizadoCurso.vue";
+import FuroHumanizadoFormacao from "./views/cursos/FuroHumanizadoFormacao.vue";
 
 const routes = [
     {
@@ -81,26 +83,44 @@ const routes = [
             description: "Pacote Premium: cuidado integral do pré-natal ao pós-parto. Curso exclusivo, consultorias de amamentação, home care, suporte via WhatsApp, deslocamento incluído e kit Maternal Baby. Experiência completa em 3 etapas para famílias que valorizam excelência.",
         }
     },
-    { path: "/cursos/imersao-profissao", component: ImersaoProfissao, meta: {
+    { path: "/cursos/formacao-consultores", component: () => import('./views/cursos/FormacaoConsultoresCurso.vue'), meta: {
+            title: "Formação de Consultores em Aleitamento Materno | Enfª Glacy Song",
+            description: "Formação de Consultores em Aleitamento Materno para graduandos e profissionais da área da saúde. 8 horas de curso com base científica sólida e abordagem prática em Florianópolis.",
+        }
+    },
+    { path: "/cursos/cuidados-bebes", component: CuidadosBebesFormacao, meta: {
+            title: "Formação em Cuidados com Bebês - Presencial | Enfª Glacy Song",
+            description: "Formação técnica e afetiva em Cuidados com Bebês para profissionais da saúde e cuidadores. Curso presencial de 5 horas em Florianópolis com abordagem baseada em evidências e prática humanizada.",
+        }
+    },
+    { path: "/cursos/furo-humanizado", component: FuroHumanizadoFormacao, meta: {
+            title: "Curso de Furo Humanizado - Presencial | Enfª Glacy Song",
+            description: "Curso de Furo Humanizado presencial em Florianópolis. Formação completa de 5 horas com técnicas especializadas, conhecimento anatômico, biossegurança e humanização no atendimento. Para profissionais que desejam atuar com excelência na área.",
+        }
+    },
+    { path: "/eventos/imersao-profissao", component: ImersaoProfissao, meta: {
             title: "Imersão Profissão Materno Infantil | Enfª Glacy Song",
             description: "Imersão Profissão Materno Infantil de 29 a 31 de agosto de 2025. Curso intensivo para profissionais que desejam se especializar na área materno-infantil. Conteúdo teórico e prático para atuação no mercado materno-infantil.",
         }
     },
-    { path: "/cursos/formacao-consultores", component: FormacaoConsultores, meta: {
+    { path: "/eventos/formacao-consultores", component: FormacaoConsultores, meta: {
             title: "Curso de Formação de Consultores em Aleitamento Materno | Enfª Glacy Song",
             description: "Curso de Formação de Consultores em Aleitamento Materno em 29 de agosto de 2025 no Hotel Faial, Florianópolis. Formação completa com conhecimento científico e prático para consultores especializados.",
         }
     },
-    { path: "/cursos/cuidados-bebes", component: CuidadosBebes, meta: {
+    { path: "/eventos/cuidados-bebes", component: CuidadosBebes, meta: {
             title: "Curso de Cuidados com Bebês | Enfª Glacy Song",
             description: "Curso de Cuidados com Bebês em 31 de agosto de 2025 no Hotel Faial, Florianópolis. Conhecimentos fundamentais sobre cuidados, higiene, alimentação e desenvolvimento infantil para pais e cuidadores.",
         }
     },
-    { path: "/cursos/furo-humanizado", component: FuroHumanizadoCurso, meta: {
+    { path: "/eventos/furo-humanizado", component: FuroHumanizadoCurso, meta: {
             title: "Curso de Furo Humanizado - Bebê e Adulto | Enfª Glacy Song",
             description: "Curso de Furo Humanizado para bebês e adultos em 31 de agosto de 2025. Técnicas especializadas, cuidados, segurança e acolhimento para profissionais da área de estética e beleza.",
         }
     },
+    // Rotas antigas mantidas para compatibilidade
+    { path: "/cursos/imersao-profissao", component: ImersaoProfissao },
+    { path: "/formacao/cuidados-bebes", component: CuidadosBebesFormacao },
 ];
 
 //
