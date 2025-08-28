@@ -254,7 +254,7 @@
                 <p class="event-description">03 capacitações em 02 dias presenciais</p>
               </div>
               <div class="event-actions">
-                <router-link to="/cursos/imersao-profissao" class="event-cta primary">Mais Informações</router-link>
+                <router-link to="/eventos/imersao-profissao" class="event-cta primary">Mais Informações</router-link>
                 <div class="event-social">
                   <span>Compartilhar:</span>
                   <a href="#" class="social-btn facebook" aria-label="Compartilhar no Facebook">
@@ -287,7 +287,7 @@
                 <p class="event-description">Para graduandos e profissionais da área da saúde</p>
               </div>
               <div class="event-actions">
-                <router-link to="/cursos/formacao-consultores" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/formacao-consultores" class="event-cta">Mais Informações</router-link>
               </div>
             </div>
           </div>
@@ -308,7 +308,7 @@
                 <p class="event-description">Curso de capacitação</p>
               </div>
               <div class="event-actions">
-                <router-link to="/cursos/cuidados-bebes" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/cuidados-bebes" class="event-cta">Mais Informações</router-link>
               </div>
             </div>
           </div>
@@ -329,7 +329,7 @@
                 <p class="event-description">Curso de capacitação</p>
               </div>
               <div class="event-actions">
-                <router-link to="/cursos/furo-humanizado" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/furo-humanizado" class="event-cta">Mais Informações</router-link>
               </div>
             </div>
           </div>
