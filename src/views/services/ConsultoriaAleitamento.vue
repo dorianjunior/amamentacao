@@ -283,11 +283,7 @@ export default {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg, 
-    rgba(161, 123, 165, 0.85) 0%, 
-    rgba(243, 156, 18, 0.75) 100%
-  );
+  background: var(--gradient-transparent);
   z-index: 2;
 }
 
@@ -351,7 +347,7 @@ export default {
 
 .detail-item i {
   font-size: 1.1rem;
-  color: #F39C12;
+  color: white;
 }
 
 .hero-cta {
@@ -442,7 +438,7 @@ export default {
 }
 
 .help-header i {
-  color: #F39C12;
+  color: white;
   font-size: 2rem;
 }
 
@@ -471,7 +467,7 @@ export default {
   width: 80px;
   height: 80px;
   margin: 0 auto 1.5rem;
-  background: linear-gradient(135deg, var(--color-primary), #F39C12);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -517,7 +513,7 @@ export default {
 }
 
 .format-info h2 i {
-  color: #F39C12;
+  color: var(--color-primary-light);
   font-size: 2rem;
 }
 
@@ -609,7 +605,7 @@ export default {
 }
 
 .audience-content h2 i {
-  color: #F39C12;
+  color: white;
   font-size: 2rem;
 }
 
@@ -643,7 +639,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #F39C12;
+  color: white;
   font-size: 2rem;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
@@ -682,7 +678,7 @@ export default {
 
 .contact-info h2 {
   font-size: 2.5rem;
-  color: var(--color-primary-dark);
+  color: var(--color-primary-light);
   margin-bottom: 1.5rem;
   font-weight: 700;
   display: flex;
@@ -691,7 +687,7 @@ export default {
 }
 
 .contact-info h2 i {
-  color: #F39C12;
+  color: var(--color-primary-light);
   font-size: 2rem;
 }
 
@@ -726,7 +722,7 @@ export default {
 .contact-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, var(--color-primary), #F39C12);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -751,7 +747,7 @@ export default {
 }
 
 .contact-link:hover {
-  color: #F39C12;
+  color: var(--color-primary-light);
   text-decoration: underline;
 }
 
@@ -768,7 +764,7 @@ export default {
 }
 
 .cta-card {
-  background: linear-gradient(135deg, var(--color-primary) 0%, #F39C12 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   color: white;
   padding: 3rem;
   border-radius: 25px;
