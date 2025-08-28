@@ -42,13 +42,219 @@
     <section class="description-section">
       <div class="description-container">
         <div class="description-content" data-aos="fade-up">
-          <h2>Sobre o Curso</h2>
+          <h2>Sobre o Evento</h2>
           <div class="description-text">
-            <p><strong>Torne-se um consultor especializado</strong> em aleitamento materno com conhecimento científico e prático.</p>
+            <p><strong>Curso para Consultores em Aleitamento Materno 👩‍⚕️🤱</strong></p>
             
-            <p>Este curso oferece formação completa para profissionais que desejam atuar como consultores em aleitamento materno, abordando desde os aspectos fisiológicos até as técnicas de manejo clínico.</p>
+            <p>O curso é voltado para <strong>graduados ou graduandos da área da saúde</strong>, que tenham interesse na área materno infantil e que desejam empreender.</p>
             
-            <p>Com metodologia atualizada e baseada em evidências científicas, você estará preparado para oferecer suporte especializado às famílias.</p>
+            <p><strong>Turma reduzida em até 10 alunos</strong>, para melhor aprendizado.</p>
+            
+            <p><strong>Curso 100% presencial em Florianópolis.</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PDF Download Section -->
+    <section class="pdf-section">
+      <div class="pdf-container">
+        <div class="pdf-content" data-aos="fade-up">
+          <div class="pdf-card">
+            <div class="pdf-icon">
+              <i class="fas fa-file-pdf"></i>
+            </div>
+            <div class="pdf-info">
+              <h3>Material Informativo</h3>
+              <p>Para informações detalhadas sobre o curso, acesse o PDF abaixo:</p>
+              <div class="pdf-details">
+                <span class="pdf-name">Curso de Formação de Consultores em AL</span>
+                <span class="pdf-size">12.60MB</span>
+              </div>
+            </div>
+            <a href="/docs/curso_de_formacao_de_consultores_em_aleitamento_materno.pdf" 
+               download="Curso_Formacao_Consultores_AL.pdf" 
+               class="pdf-download-btn">
+              <i class="fas fa-download"></i>
+              Download PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="video-container">
+        <div class="video-content" data-aos="fade-up">
+          <h2><i class="fas fa-play-circle"></i> Conheça mais sobre o Curso</h2>
+          <p class="video-description">Assista ao vídeo e saiba mais detalhes sobre nosso Curso de Formação de Consultores</p>
+          
+          <div class="video-wrapper">
+            <video 
+              controls 
+              preload="metadata"
+              poster="/banner.webp"
+              onError="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <source src="/videos/curso_de_formacao_de_consultores_em_aleitamento_materno.mp4" type="video/mp4">
+              <p>Seu navegador não suporta o elemento de vídeo.</p>
+            </video>
+            
+            <!-- Fallback para quando o vídeo não carrega -->
+            <div class="video-fallback" style="display: none;">
+              <div class="fallback-content">
+                <i class="fas fa-video"></i>
+                <h3>Vídeo Indisponível</h3>
+                <p>O vídeo não pôde ser carregado no momento.</p>
+                <a href="/videos/curso_de_formacao_de_consultores_em_aleitamento_materno.mp4" 
+                   download 
+                   class="download-video-btn">
+                  <i class="fas fa-download"></i>
+                  Baixar Vídeo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Topics Section -->
+    <section class="topics-section">
+      <div class="topics-container">
+        <div class="topics-content" data-aos="fade-up">
+          <h2><i class="fas fa-list-check"></i> Temas Abordados</h2>
+          <div class="topics-grid">
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="100">
+              <i class="fas fa-heart"></i>
+              <span>Benefícios da amamentação</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="150">
+              <i class="fas fa-female"></i>
+              <span>Anatomia e fisiologia da mama</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-dna"></i>
+              <span>Endocrinologia no aleitamento materno</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="250">
+              <i class="fas fa-tint"></i>
+              <span>Tipos de leite</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-baby"></i>
+              <span>Tamanho do estômago do bebê e quantidade da mamada</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="350">
+              <i class="fas fa-hand-holding-heart"></i>
+              <span>Pega correta</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-yoga"></i>
+              <span>Posições para amamentar</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="450">
+              <i class="fas fa-wind"></i>
+              <span>Arroto e regurgitação</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="500">
+              <i class="fas fa-tools"></i>
+              <span>Uso de apetrechos</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="550">
+              <i class="fas fa-shield-alt"></i>
+              <span>Cuidados com a mama</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="600">
+              <i class="fas fa-search"></i>
+              <span>Avaliação das mamas, da mamada e da boca do bebê</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="650">
+              <i class="fas fa-check-circle"></i>
+              <span>Técnicas para garantia de amamentação nutritiva e efetiva</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="700">
+              <i class="fas fa-utensils"></i>
+              <span>Alimentação da mãe</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="750">
+              <i class="fas fa-pills"></i>
+              <span>Uso de medicamentos</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="800">
+              <i class="fas fa-hands"></i>
+              <span>Massagem e ordenha</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="850">
+              <i class="fas fa-archive"></i>
+              <span>Armazenamento</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="900">
+              <i class="fas fa-gift"></i>
+              <span>Doação de leite materno</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="950">
+              <i class="fas fa-exclamation-triangle"></i>
+              <span>Complicações na amamentação</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="1000">
+              <i class="fas fa-first-aid"></i>
+              <span>Primeiros socorros</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="1050">
+              <i class="fas fa-clipboard-list"></i>
+              <span>Estudos de caso</span>
+            </div>
+            <div class="topic-item" data-aos="fade-up" data-aos-delay="1100">
+              <i class="fas fa-rocket"></i>
+              <span>Empreendedorismo e marketing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Includes Section -->
+    <section class="includes-section">
+      <div class="includes-container">
+        <div class="includes-content" data-aos="fade-up">
+          <h2><i class="fas fa-gift"></i> Incluso no Curso</h2>
+          <div class="includes-list">
+            <div class="include-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="include-icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <h3>Material Impresso</h3>
+              <p>Apostila completa com todo conteúdo do curso</p>
+            </div>
+            <div class="include-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="include-icon">
+                <i class="fas fa-clipboard-check"></i>
+              </div>
+              <h3>Ficha de Anamnese</h3>
+              <p>Roteiro de consulta profissional</p>
+            </div>
+            <div class="include-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="include-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h3>Certificado</h3>
+              <p>Certificado de conclusão do curso</p>
+            </div>
+            <div class="include-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="include-icon">
+                <i class="fas fa-coffee"></i>
+              </div>
+              <h3>Coffee Break</h3>
+              <p>Pausa para café e networking</p>
+            </div>
+            <div class="include-item" data-aos="fade-up" data-aos-delay="500">
+              <div class="include-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <h3>Acompanhamento</h3>
+              <p>02 meses de suporte pelo WhatsApp</p>
+            </div>
           </div>
         </div>
       </div>
@@ -95,7 +301,8 @@
           <div class="contact-info" data-aos="fade-right">
             <h2><i class="fas fa-phone"></i> Informações e Inscrições</h2>
             <p class="contact-description">
-              Entre em contato para mais informações sobre o Curso de Formação de Consultores em Aleitamento Materno.
+              Entre em contato para mais informações sobre o Curso de Formação de Consultores em Aleitamento Materno.<br>
+              <strong>Para a inscrição, entre em contato pelo WhatsApp (48) 99668-0096.</strong>
             </p>
             
             <div class="contact-methods">
@@ -127,13 +334,13 @@
           
           <div class="contact-cta" data-aos="fade-left">
             <div class="cta-card">
-              <h3>Pronto para se especializar?</h3>
+              <h3>Quero fazer parte do curso!</h3>
               <p>Garante sua vaga no Curso de Formação de Consultores</p>
-              <a href="https://wa.me/5548996680096?text=Olá! Gostaria de me inscrever no Curso de Formação de Consultores em Aleitamento Materno" 
+              <a href="https://wa.me/5548996680096?text=Olá! Quero fazer parte do Curso de Formação de Consultores em Aleitamento Materno" 
                  target="_blank" 
                  class="whatsapp-cta">
                 <i class="fab fa-whatsapp"></i>
-                Inscrever-se pelo WhatsApp
+                Quero fazer parte do curso!
               </a>
               <router-link to="/servicos" class="back-link">
                 <i class="fas fa-arrow-left"></i>
@@ -149,7 +356,26 @@
 
 <script>
 export default {
-  name: 'FormacaoConsultores'
+  name: 'FormacaoConsultores',
+  mounted() {
+    // Gerenciar erro do vídeo
+    const video = this.$refs.courseVideo;
+    if (video) {
+      video.addEventListener('error', (e) => {
+        console.log('Erro ao carregar vídeo:', e);
+        const videoWrapper = video.parentElement;
+        const fallback = videoWrapper.querySelector('.video-fallback');
+        if (fallback) {
+          video.style.display = 'none';
+          fallback.style.display = 'block';
+        }
+      });
+
+      video.addEventListener('loadeddata', () => {
+        console.log('Vídeo carregado com sucesso');
+      });
+    }
+  }
 }
 </script>
 
@@ -306,6 +532,359 @@ export default {
 .description-text strong {
   color: var(--color-primary);
   font-weight: 600;
+}
+
+/* PDF Section */
+.pdf-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.pdf-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.pdf-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.3s ease;
+}
+
+.pdf-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.pdf-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.pdf-info {
+  flex: 1;
+}
+
+.pdf-info h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.pdf-info p {
+  color: var(--color-text);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.pdf-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.pdf-name {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}
+
+.pdf-size {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.pdf-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.pdf-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+}
+
+.pdf-download-btn i {
+  font-size: 1.1rem;
+}
+
+/* Video Section */
+.video-section {
+  padding: 6rem 0;
+  background: white;
+}
+
+.video-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.video-content h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.video-content h2 i {
+  color: var(--color-primary-light);
+  font-size: 2rem;
+}
+
+.video-description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.video-wrapper:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #000;
+}
+
+.video-wrapper video:focus {
+  outline: 3px solid var(--color-primary-light);
+  outline-offset: 3px;
+}
+
+.video-fallback {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+  border: 2px dashed #dee2e6;
+}
+
+.fallback-content i {
+  font-size: 4rem;
+  color: var(--color-primary-light);
+  margin-bottom: 1rem;
+}
+
+.fallback-content h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+}
+
+.fallback-content p {
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.download-video-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.download-video-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+}
+
+/* Topics Section */
+.topics-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.topics-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.topics-content h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.topics-content h2 i {
+  color: var(--color-primary-light);
+  font-size: 2rem;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.topic-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--color-primary);
+}
+
+.topic-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.topic-item i {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.topic-item span {
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.4;
+}
+
+/* Includes Section */
+.includes-section {
+  padding: 6rem 0;
+  background: white;
+}
+
+.includes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.includes-content h2 {
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.includes-content h2 i {
+  color: var(--color-primary-light);
+  font-size: 2rem;
+}
+
+.includes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.include-item {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(161, 123, 165, 0.1);
+}
+
+.include-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.include-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.include-item h3 {
+  font-size: 1.25rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.include-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin: 0;
 }
 
 /* Info Section */
@@ -573,15 +1152,66 @@ export default {
   }
   
   .description-section,
+  .pdf-section,
+  .video-section,
+  .topics-section,
+  .includes-section,
   .info-section,
   .contact-section {
     padding: 4rem 0;
   }
   
   .description-container,
+  .pdf-container,
+  .video-container,
+  .topics-container,
+  .includes-container,
   .info-container,
   .contact-container {
     padding: 0 1rem;
+  }
+  
+  .pdf-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .pdf-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .video-content h2,
+  .topics-content h2,
+  .includes-content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .topics-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .topic-item {
+    padding: 1rem;
+  }
+
+  .includes-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .include-item {
+    padding: 2rem;
+  }
+
+  .include-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
   }
   
   .info-item {
@@ -603,9 +1233,27 @@ export default {
   }
   
   .description-content h2,
+  .video-content h2,
+  .topics-content h2,
+  .includes-content h2,
   .info-content h2,
   .contact-info h2 {
     font-size: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .topic-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pdf-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .include-item h3 {
+    font-size: 1.1rem;
   }
   
   .info-item {
