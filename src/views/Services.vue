@@ -88,7 +88,7 @@
             <p class="service-type">Bebê e Adulto</p>
             <p class="service-duration">1h</p>
             <p class="service-description">Procedimento seguro e humanizado para todas as idades</p>
-            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/furo-humanizado" class="service-cta">Mais Informações</router-link>
           </div>
         </div>
       </div>

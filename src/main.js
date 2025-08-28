@@ -13,6 +13,7 @@ import Services from "./views/Services.vue";
 import Contact from "./views/Contact.vue";
 import Faq from "./views/Faq.vue";
 import ConsultoriaAleitamento from "./views/services/ConsultoriaAleitamento.vue";
+import FuroHumanizado from "./views/services/FuroHumanizado.vue";
 
 const routes = [
     {
@@ -45,6 +46,11 @@ const routes = [
     { path: "/servicos/consultoria-aleitamento", component: ConsultoriaAleitamento, meta: {
             title: "Consultoria em Aleitamento Materno | Enfª Glacy Song",
             description: "Consultoria especializada em aleitamento materno com a Enfª Glacy Song. Avaliação completa, orientações técnicas, suporte emocional e acompanhamento personalizado para gestantes e puérperas. Atendimento presencial, domiciliar ou online em Florianópolis.",
+        }
+    },
+    { path: "/servicos/furo-humanizado", component: FuroHumanizado, meta: {
+            title: "Furo de Orelha Humanizado | Enfª Glacy Song",
+            description: "Furo de orelha humanizado para bebês e adultos em Florianópolis. Procedimento sem dor, sem trauma, com técnicas especializadas de alívio. Atendimento domiciliar ou no consultório com acompanhamento completo e kit de cuidados.",
         }
     },
 ];
