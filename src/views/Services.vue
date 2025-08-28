@@ -40,7 +40,7 @@
             <p class="service-type">Para mamães e bebês</p>
             <p class="service-duration">4h ou 8h</p>
             <p class="service-description">Cuidado especializado no conforto do seu lar</p>
-            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/home-care-materno" class="service-cta">Mais Informações</router-link>
           </div>
 
           <!-- Curso para Gestantes/Casais -->

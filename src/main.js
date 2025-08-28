@@ -14,6 +14,7 @@ import Contact from "./views/Contact.vue";
 import Faq from "./views/Faq.vue";
 import ConsultoriaAleitamento from "./views/services/ConsultoriaAleitamento.vue";
 import FuroHumanizado from "./views/services/FuroHumanizado.vue";
+import HomeCareMaterno from "./views/services/HomeCareMaterno.vue";
 
 const routes = [
     {
@@ -51,6 +52,11 @@ const routes = [
     { path: "/servicos/furo-humanizado", component: FuroHumanizado, meta: {
             title: "Furo de Orelha Humanizado | Enfª Glacy Song",
             description: "Furo de orelha humanizado para bebês e adultos em Florianópolis. Procedimento sem dor, sem trauma, com técnicas especializadas de alívio. Atendimento domiciliar ou no consultório com acompanhamento completo e kit de cuidados.",
+        }
+    },
+    { path: "/servicos/home-care-materno", component: HomeCareMaterno, meta: {
+            title: "Home Care Materno Infantil | Enfª Glacy Song",
+            description: "Home Care materno infantil especializado em Florianópolis. Cuidado integral para mães e bebês no pós-parto, massagem terapêutica, laserterapia, suporte à amamentação e orientações sobre cuidados com recém-nascidos no conforto do seu lar.",
         }
     },
 ];
