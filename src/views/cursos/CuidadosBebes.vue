@@ -70,7 +70,7 @@
                 <span class="pdf-size">12.60MB</span>
               </div>
             </div>
-            <a href="/docs/curso_cuidados_bebes.pdf" 
+            <a href="/docs/curso_de_capacitacao_de_cuidados_com_bebes.pdf" 
                download="Curso_Cuidados_Bebes.pdf" 
                class="pdf-download-btn">
               <i class="fas fa-download"></i>
