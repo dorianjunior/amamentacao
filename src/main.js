@@ -12,6 +12,7 @@ import About from "./views/About.vue";
 import Services from "./views/Services.vue";
 import Contact from "./views/Contact.vue";
 import Faq from "./views/Faq.vue";
+import ConsultoriaAleitamento from "./views/services/ConsultoriaAleitamento.vue";
 
 const routes = [
     {
@@ -39,6 +40,11 @@ const routes = [
     { path: "/perguntasfrequentes", component: Faq, meta: {
             title: "Perguntas Frequentes | Enfª Glacy Song",
             description: "É normal sentir dor ao amamentar? É normal sentir um leve desconforto ou sensibilidade nos primeiros dias, mas não é normal sentir dor ao amamentar nem antes, durante ou depois. Se você está sentindo dor, entre em contato comigo, eu posso ajudar! O que é o furo de orelha humanizado?",
+        }
+    },
+    { path: "/servicos/consultoria-aleitamento", component: ConsultoriaAleitamento, meta: {
+            title: "Consultoria em Aleitamento Materno | Enfª Glacy Song",
+            description: "Consultoria especializada em aleitamento materno com a Enfª Glacy Song. Avaliação completa, orientações técnicas, suporte emocional e acompanhamento personalizado para gestantes e puérperas. Atendimento presencial, domiciliar ou online em Florianópolis.",
         }
     },
 ];

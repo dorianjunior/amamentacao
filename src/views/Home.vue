@@ -129,7 +129,7 @@
             <p class="service-type">Individual ou Plano</p>
             <p class="service-duration">1h 30min</p>
             <p class="service-description">Suporte especializado para uma amamentação bem-sucedida e tranquila</p>
-            <router-link to="/contato" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/consultoria-aleitamento" class="service-cta">Mais Informações</router-link>
           </div>
 
           <!-- Home Care Materno Infantil -->
