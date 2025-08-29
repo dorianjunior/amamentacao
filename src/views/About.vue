@@ -44,12 +44,12 @@
             
             <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
               <div class="stat-item">
-                <span class="stat-number">500+</span>
+                <span class="stat-number">50+</span>
                 <span class="stat-label">Famílias Atendidas</span>
               </div>
               <div class="stat-divider"></div>
               <div class="stat-item">
-                <span class="stat-number">5+</span>
+                <span class="stat-number">7+</span>
                 <span class="stat-label">Anos de Experiência</span>
               </div>
               <div class="stat-divider"></div>

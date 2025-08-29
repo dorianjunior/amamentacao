@@ -17,13 +17,13 @@
             <router-link to="/" @click="closeMenu">Home</router-link>
           </li>
           <li>
-            <router-link to="/sobremim" @click="closeMenu">Sobre Mim</router-link>
+            <router-link to="/sobre" @click="closeMenu">Sobre Mim</router-link>
           </li>
           <li>
             <router-link to="/servicos" @click="closeMenu">Serviços</router-link>
           </li>
           <li>
-            <router-link to="/perguntasfrequentes" @click="closeMenu">Perguntas Frequentes</router-link>
+            <router-link to="/faq" @click="closeMenu">Perguntas Frequentes</router-link>
           </li>
           <li>
             <router-link to="/contato" class="contact-link" @click="closeMenu">Contato</router-link>

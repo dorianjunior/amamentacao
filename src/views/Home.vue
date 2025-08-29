@@ -87,7 +87,7 @@
           <div class="highlight-card" data-aos="flip-up" data-aos-delay="100">
             <div class="highlight-icon animate__animated animate__pulse animate__infinite animate__slow"><i class="far fa-check-square"></i></div>
             <h3>Experiência Comprovada</h3>
-            <p>Mais de <span class="count-up" data-count="5">0</span> anos ajudando famílias em sua jornada de amamentação e cuidados com bebês</p>
+            <p>Mais de <span class="count-up" data-count="7">0</span> anos ajudando famílias em sua jornada de amamentação e cuidados com bebês</p>
           </div>
 
           <div class="highlight-card" data-aos="flip-up" data-aos-delay="200">
@@ -499,19 +499,19 @@
         <div class="testimonials-stats" data-aos="fade-up" data-aos-delay="700">
           <div class="stat-item">
             <div class="stat-number">
-              <span class="count-up" data-count="500">0</span>+
+              <span class="count-up" data-count="50">0</span>+
             </div>
             <p>Famílias Atendidas</p>
           </div>
           <div class="stat-item">
             <div class="stat-number">
-              <span class="count-up" data-count="98">0</span>%
+              <span class="count-up" data-count="100">0</span>%
             </div>
-            <p>Satisfação dos Clientes</p>
+            <p>Dedicação</p>
           </div>
           <div class="stat-item">
             <div class="stat-number">
-              <span class="count-up" data-count="5">0</span>
+              <span class="count-up" data-count="7">0</span>
             </div>
             <p>Anos de Experiência</p>
           </div>
