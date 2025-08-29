@@ -257,15 +257,18 @@
                 <router-link to="/eventos/imersao-profissao" class="event-cta primary">Mais Informações</router-link>
                 <div class="event-social">
                   <span>Compartilhar:</span>
-                  <a href="#" class="social-btn facebook" aria-label="Compartilhar no Facebook">
+                  <button @click="shareOnFacebook('imersao-profissao')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
                     <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#" class="social-btn twitter" aria-label="Compartilhar no Twitter">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#" class="social-btn linkedin" aria-label="Compartilhar no LinkedIn">
+                  </button>
+                  <button @click="shareOnLinkedIn('imersao-profissao')" class="social-btn linkedin" aria-label="Compartilhar no LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
-                  </a>
+                  </button>
+                  <button @click="shareOnWhatsApp('imersao-profissao')" class="social-btn whatsapp" aria-label="Compartilhar no WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                  </button>
+                  <button @click="copyLink('imersao-profissao')" class="social-btn copy-link" aria-label="Copiar Link">
+                    <i class="fas fa-link"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -288,6 +291,21 @@
               </div>
               <div class="event-actions">
                 <router-link to="/eventos/formacao-consultores" class="event-cta">Mais Informações</router-link>
+                <div class="event-social">
+                  <span>Compartilhar:</span>
+                  <button @click="shareOnFacebook('formacao-consultores')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button @click="shareOnLinkedIn('formacao-consultores')" class="social-btn linkedin" aria-label="Compartilhar no LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </button>
+                  <button @click="shareOnWhatsApp('formacao-consultores')" class="social-btn whatsapp" aria-label="Compartilhar no WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                  </button>
+                  <button @click="copyLink('formacao-consultores')" class="social-btn copy-link" aria-label="Copiar Link">
+                    <i class="fas fa-link"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -309,6 +327,21 @@
               </div>
               <div class="event-actions">
                 <router-link to="/eventos/cuidados-bebes" class="event-cta">Mais Informações</router-link>
+                <div class="event-social">
+                  <span>Compartilhar:</span>
+                  <button @click="shareOnFacebook('cuidados-bebes')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button @click="shareOnLinkedIn('cuidados-bebes')" class="social-btn linkedin" aria-label="Compartilhar no LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </button>
+                  <button @click="shareOnWhatsApp('cuidados-bebes')" class="social-btn whatsapp" aria-label="Compartilhar no WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                  </button>
+                  <button @click="copyLink('cuidados-bebes')" class="social-btn copy-link" aria-label="Copiar Link">
+                    <i class="fas fa-link"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -330,6 +363,21 @@
               </div>
               <div class="event-actions">
                 <router-link to="/eventos/furo-humanizado" class="event-cta">Mais Informações</router-link>
+                <div class="event-social">
+                  <span>Compartilhar:</span>
+                  <button @click="shareOnFacebook('furo-humanizado')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button @click="shareOnLinkedIn('furo-humanizado')" class="social-btn linkedin" aria-label="Compartilhar no LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </button>
+                  <button @click="shareOnWhatsApp('furo-humanizado')" class="social-btn whatsapp" aria-label="Compartilhar no WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                  </button>
+                  <button @click="copyLink('furo-humanizado')" class="social-btn copy-link" aria-label="Copiar Link">
+                    <i class="fas fa-link"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -696,6 +744,19 @@
     </section>
 
   </div>
+
+  <!-- Modal de Confirmação de Cópia -->
+  <div v-if="showCopyModal" class="copy-modal-overlay">
+    <div class="copy-modal">
+      <div class="copy-modal-content">
+        <div class="copy-modal-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <h3>Link Copiado!</h3>
+        <p>O link foi copiado para a área de transferência</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -704,6 +765,146 @@ import { CountUp } from 'countup.js'
 
 export default {
   name: 'Home',
+  data() {
+    return {
+      showCopyModal: false
+    }
+  },
+  methods: {
+    shareOnFacebook(eventType) {
+      const urls = {
+        'imersao-profissao': 'https://amamentacaoflorianopolis.com.br/eventos/imersao-profissao',
+        'formacao-consultores': 'https://amamentacaoflorianopolis.com.br/eventos/formacao-consultores',
+        'cuidados-bebes': 'https://amamentacaoflorianopolis.com.br/eventos/cuidados-bebes',
+        'furo-humanizado': 'https://amamentacaoflorianopolis.com.br/eventos/furo-humanizado'
+      }
+      
+      const titles = {
+        'imersao-profissao': 'Imersão Profissão Materno Infantil - 29 a 31 de agosto',
+        'formacao-consultores': 'Curso de Formação de Consultores em Aleitamento Materno - 29 de agosto',
+        'cuidados-bebes': 'Curso de Cuidados com Bebês - 31 de agosto',
+        'furo-humanizado': 'Curso de Furo Humanizado - 31 de agosto'
+      }
+      
+      const url = encodeURIComponent(urls[eventType] || urls['imersao-profissao'])
+      const title = encodeURIComponent(titles[eventType] || titles['imersao-profissao'])
+      
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${title}`, '_blank')
+    },
+    
+    shareOnInstagram(eventType) {
+      // Instagram não permite compartilhamento direto via URL, então vamos copiar o link
+      const urls = {
+        'imersao-profissao': 'https://amamentacaoflorianopolis.com.br/eventos/imersao-profissao',
+        'formacao-consultores': 'https://amamentacaoflorianopolis.com.br/eventos/formacao-consultores',
+        'cuidados-bebes': 'https://amamentacaoflorianopolis.com.br/eventos/cuidados-bebes',
+        'furo-humanizado': 'https://amamentacaoflorianopolis.com.br/eventos/furo-humanizado'
+      }
+      
+      const url = urls[eventType] || urls['imersao-profissao']
+      
+      // Copiar para clipboard
+      navigator.clipboard.writeText(url).then(() => {
+        alert('Link copiado! Cole no Instagram para compartilhar.')
+      }).catch(() => {
+        // Fallback para navegadores mais antigos
+        const textArea = document.createElement('textarea')
+        textArea.value = url
+        document.body.appendChild(textArea)
+        textArea.select()
+        document.execCommand('copy')
+        document.body.removeChild(textArea)
+        alert('Link copiado! Cole no Instagram para compartilhar.')
+      })
+    },
+    
+    shareOnLinkedIn(eventType) {
+      const urls = {
+        'imersao-profissao': 'https://amamentacaoflorianopolis.com.br/eventos/imersao-profissao',
+        'formacao-consultores': 'https://amamentacaoflorianopolis.com.br/eventos/formacao-consultores',
+        'cuidados-bebes': 'https://amamentacaoflorianopolis.com.br/eventos/cuidados-bebes',
+        'furo-humanizado': 'https://amamentacaoflorianopolis.com.br/eventos/furo-humanizado'
+      }
+      
+      const titles = {
+        'imersao-profissao': 'Imersão Profissão Materno Infantil - 29 a 31 de agosto',
+        'formacao-consultores': 'Curso de Formação de Consultores em Aleitamento Materno - 29 de agosto',
+        'cuidados-bebes': 'Curso de Cuidados com Bebês - 31 de agosto',
+        'furo-humanizado': 'Curso de Furo Humanizado - 31 de agosto'
+      }
+      
+      const url = encodeURIComponent(urls[eventType] || urls['imersao-profissao'])
+      const title = encodeURIComponent(titles[eventType] || titles['imersao-profissao'])
+      const summary = encodeURIComponent('Curso profissionalizante com a Enfª Glacy Song em Florianópolis. Inscreva-se!')
+      
+      window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}&summary=${summary}`, '_blank')
+    },
+    
+    shareOnWhatsApp(eventType) {
+      const urls = {
+        'imersao-profissao': 'https://amamentacaoflorianopolis.com.br/eventos/imersao-profissao',
+        'formacao-consultores': 'https://amamentacaoflorianopolis.com.br/eventos/formacao-consultores',
+        'cuidados-bebes': 'https://amamentacaoflorianopolis.com.br/eventos/cuidados-bebes',
+        'furo-humanizado': 'https://amamentacaoflorianopolis.com.br/eventos/furo-humanizado'
+      }
+      
+      const messages = {
+        'imersao-profissao': '*Imersão Profissão Materno Infantil* 🤱\n\n📅 29 a 31 de agosto de 2025\n📍 Hotel Faial - Florianópolis\n\n03 capacitações em 02 dias presenciais com a Enfª Glacy Song!\n\nMais informações:',
+        'formacao-consultores': '*Curso de Formação de Consultores em Aleitamento Materno* 🤱\n\n📅 29 de agosto de 2025\n📍 Hotel Faial - Florianópolis\n\nPara graduandos e profissionais da área da saúde.\n\nMais informações:',
+        'cuidados-bebes': '*Curso de Cuidados com Bebês* 👶\n\n📅 31 de agosto de 2025\n📍 Hotel Faial - Florianópolis\n\nCurso de capacitação profissional.\n\nMais informações:',
+        'furo-humanizado': '*Curso de Furo Humanizado - Bebê e Adulto* 👂\n\n📅 31 de agosto de 2025\n📍 Hotel Faial - Florianópolis\n\nCurso de capacitação profissional.\n\nMais informações:'
+      }
+      
+      const url = urls[eventType] || urls['imersao-profissao']
+      const message = encodeURIComponent((messages[eventType] || messages['imersao-profissao']) + ' ' + url)
+      
+      window.open(`https://wa.me/?text=${message}`, '_blank')
+    },
+    copyLink(eventType) {
+      const urls = {
+        'imersao-profissao': 'https://amamentacaoflorianopolis.com.br/cursos/imersao-profissao-materno-infantil',
+        'formacao-consultores': 'https://amamentacaoflorianopolis.com.br/cursos/formacao-consultores-aleitamento',
+        'cuidados-bebes': 'https://amamentacaoflorianopolis.com.br/cursos/cuidados-bebes-recem-nascidos',
+        'furo-humanizado': 'https://amamentacaoflorianopolis.com.br/cursos/formacao-furo-orelha-humanizado'
+      }
+
+      const url = urls[eventType] || urls['imersao-profissao']
+      
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          this.showCopyModal = true
+          setTimeout(() => {
+            this.showCopyModal = false
+          }, 2500)
+        }).catch(() => {
+          this.fallbackCopy(url)
+        })
+      } else {
+        this.fallbackCopy(url)
+      }
+    },
+    fallbackCopy(text) {
+      const textArea = document.createElement('textarea')
+      textArea.value = text
+      textArea.style.position = 'fixed'
+      textArea.style.opacity = '0'
+      document.body.appendChild(textArea)
+      textArea.focus()
+      textArea.select()
+      
+      try {
+        document.execCommand('copy')
+        this.showCopyModal = true
+        setTimeout(() => {
+          this.showCopyModal = false
+        }, 2500)
+      } catch (err) {
+        console.error('Falha ao copiar o link:', err)
+      }
+      
+      document.body.removeChild(textArea)
+    }
+  },
   mounted() {
     const typed = new Typed('.typing-text', {
       strings: [
@@ -1674,6 +1875,7 @@ export default {
   gap: 0.75rem;
   font-size: 0.875rem;
   color: var(--color-text);
+  flex-wrap: wrap;
 }
 
 .social-btn {
@@ -1684,6 +1886,8 @@ export default {
   height: 35px;
   border-radius: 50%;
   color: white;
+  border: none;
+  cursor: pointer;
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 0.875rem;
@@ -1693,17 +1897,52 @@ export default {
   background: #1877f2;
 }
 
-.social-btn.twitter {
-  background: #1da1f2;
+.social-btn.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 
 .social-btn.linkedin {
   background: #0077b5;
 }
 
+.social-btn.whatsapp {
+  background: #25d366;
+}
+
 .social-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade para botões sociais */
+@media (max-width: 768px) {
+  .event-social {
+    font-size: 0.8rem;
+    gap: 0.5rem;
+  }
+  
+  .event-social span {
+    font-size: 0.75rem;
+  }
+  
+  .social-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-social {
+    justify-content: center;
+    gap: 0.4rem;
+  }
+  
+  .social-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 0.75rem;
+  }
 }
 
 .courses-footer {
@@ -2869,6 +3108,115 @@ blockquote {
   .whatsapp-cta {
     padding: 0.875rem 1.5rem;
     font-size: 0.9rem;
+  }
+}
+
+/* Estilos para o botão de copiar link */
+.social-btn.copy-link {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: all 0.3s ease;
+}
+
+.social-btn.copy-link:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+/* Estilos para o modal de confirmação */
+.copy-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease;
+}
+
+.copy-modal {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  animation: modalSlideIn 0.3s ease;
+}
+
+.copy-modal-content .copy-modal-icon {
+  margin-bottom: 1rem;
+}
+
+.copy-modal-icon i {
+  font-size: 3rem;
+  color: #4CAF50;
+  animation: checkBounce 0.6s ease;
+}
+
+.copy-modal h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.copy-modal p {
+  color: #666;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes checkBounce {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsividade do modal */
+@media (max-width: 768px) {
+  .copy-modal {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .copy-modal h3 {
+    font-size: 1.3rem;
+  }
+  
+  .copy-modal-icon i {
+    font-size: 2.5rem;
   }
 }
 </style>
