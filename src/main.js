@@ -146,7 +146,7 @@ router.beforeEach((to, from, next) => {
     }
     
     // Atualizar canonical URL
-    const baseUrl = 'http://amamentacaoflorianopolis.com.br';
+    const baseUrl = 'https://amamentacaoflorianopolis.com.br';
     const canonicalUrl = baseUrl + to.path;
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
