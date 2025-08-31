@@ -67,7 +67,7 @@
               <p>Atendimento via WhatsApp, com suporte antes e depois.</p>
             </div>
 
-            <router-link to="/sobremim" class="about-cta animate__animated animate__heartBeat animate__infinite animate__slower" data-aos="zoom-in" data-aos-delay="800">
+            <router-link to="/sobre" class="about-cta animate__animated animate__heartBeat animate__infinite animate__slower" data-aos="zoom-in" data-aos-delay="800">
               Quero saber mais sobre a Enfª Glacy Song
             </router-link>
           </div>
