@@ -125,13 +125,13 @@ export default {
 }
 
 .brand-subtitle {
-  color: var(--color-secondary);
+  color: var(--color-primary-dark);
   font-size: 0.85rem;
   margin-bottom: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  opacity: 0.9;
+  font-weight: 500;
 }
 
 /* Navigation */
@@ -151,7 +151,7 @@ export default {
 }
 
 .nav-list a {
-  color: var(--color-secondary);
+  color: var(--color-primary-dark);
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;

@@ -71,13 +71,13 @@
 
               <!-- Redes sociais -->
               <div class="social-links">
-                <a href="https://www.instagram.com/amamentacao.florianopolis/" target="_blank" class="social-link">
+                <a href="https://www.instagram.com/amamentacao.florianopolis/" target="_blank" class="social-link" aria-label="Siga-nos no Instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://wa.me/5548996680096" target="_blank" class="social-link">
+                <a href="https://wa.me/5548996680096" target="_blank" class="social-link" aria-label="Entre em contato pelo WhatsApp">
                   <i class="fab fa-whatsapp"></i>
                 </a>
-                <a href="mailto:glacy.consultoria.am@gmail.com" class="social-link">
+                <a href="mailto:glacy.consultoria.am@gmail.com" class="social-link" aria-label="Envie um e-mail">
                   <i class="fas fa-envelope"></i>
                 </a>
               </div>
@@ -157,13 +157,13 @@
 
           <!-- Social Mobile -->
           <div class="mobile-social">
-            <a href="https://www.instagram.com/amamentacao.florianopolis/" target="_blank" class="mobile-social-link">
+            <a href="https://www.instagram.com/amamentacao.florianopolis/" target="_blank" class="mobile-social-link" aria-label="Siga-nos no Instagram">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://wa.me/5548996680096" target="_blank" class="mobile-social-link">
+            <a href="https://wa.me/5548996680096" target="_blank" class="mobile-social-link" aria-label="Entre em contato pelo WhatsApp">
               <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="mailto:glacy.consultoria.am@gmail.com" class="mobile-social-link">
+            <a href="mailto:glacy.consultoria.am@gmail.com" class="mobile-social-link" aria-label="Envie um e-mail">
               <i class="fas fa-envelope"></i>
             </a>
           </div>
