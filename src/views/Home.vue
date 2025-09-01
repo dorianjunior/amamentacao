@@ -129,7 +129,7 @@
             <p class="service-type">Individual ou Plano</p>
             <p class="service-duration">1h 30min</p>
             <p class="service-description">Suporte especializado para uma amamentação bem-sucedida e tranquila</p>
-            <router-link to="/servicos/consultoria-aleitamento" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/consultoria-aleitamento" class="service-cta">Saiba mais sobre Consultoria em Aleitamento</router-link>
           </div>
 
           <!-- Home Care Materno Infantil -->
@@ -141,7 +141,7 @@
             <p class="service-type">Para mamães e bebês</p>
             <p class="service-duration">4h ou 8h</p>
             <p class="service-description">Cuidado especializado no conforto do seu lar</p>
-            <router-link to="/servicos/home-care-materno" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/home-care-materno" class="service-cta">Saiba mais sobre Home Care</router-link>
           </div>
 
           <!-- Curso para Gestantes/Casais -->
@@ -153,7 +153,7 @@
             <p class="service-type">Preparação completa</p>
             <p class="service-duration">3h</p>
             <p class="service-description">Preparação para receber seu bebê com segurança</p>
-            <router-link to="/servicos/curso-gestantes" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/curso-gestantes" class="service-cta">Saiba mais sobre Curso para Gestantes/Casais</router-link>
           </div>
 
           <!-- Pacote Premium -->
@@ -165,7 +165,7 @@
             <p class="service-type">Pacote completo em 3 etapas</p>
             <p class="service-duration">6h</p>
             <p class="service-description">Acompanhamento completo e personalizado</p>
-            <router-link to="/servicos/pacote-premium" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/pacote-premium" class="service-cta">Saiba mais sobre Pacote Premium</router-link>
           </div>
 
           <!-- Laserterapia -->
@@ -177,7 +177,7 @@
             <p class="service-type">Para mamães e bebês</p>
             <p class="service-duration">30min</p>
             <p class="service-description">Tratamento especializado com tecnologia avançada</p>
-            <router-link to="/servicos/laserterapia" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/laserterapia" class="service-cta">Saiba mais sobre Laserterapia</router-link>
           </div>
 
           <!-- Furo de Orelha Humanizado -->
@@ -189,7 +189,7 @@
             <p class="service-type">Bebê e Adulto</p>
             <p class="service-duration">1h</p>
             <p class="service-description">Procedimento seguro e humanizado para todas as idades</p>
-            <router-link to="/servicos/furo-humanizado" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/furo-humanizado" class="service-cta">Saiba mais sobre Furo Humanizado</router-link>
           </div>
         </div>
 
@@ -254,7 +254,7 @@
                 <p class="event-description">03 capacitações em 02 dias presenciais</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/imersao-profissao" class="event-cta primary">Mais Informações</router-link>
+                <router-link to="/eventos/imersao-profissao" class="event-cta primary">Inscreva-se na Imersão Profissional</router-link>
                 <div class="event-social">
                   <span>Compartilhar:</span>
                   <button @click="shareOnFacebook('imersao-profissao')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
@@ -290,7 +290,7 @@
                 <p class="event-description">Para graduandos e profissionais da área da saúde</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/formacao-consultores" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/formacao-consultores" class="event-cta">Inscreva-se no Curso de Formação</router-link>
                 <div class="event-social">
                   <span>Compartilhar:</span>
                   <button @click="shareOnFacebook('formacao-consultores')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
@@ -326,7 +326,7 @@
                 <p class="event-description">Curso de capacitação</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/cuidados-bebes" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/cuidados-bebes" class="event-cta">Inscreva-se no Curso de Cuidados</router-link>
                 <div class="event-social">
                   <span>Compartilhar:</span>
                   <button @click="shareOnFacebook('cuidados-bebes')" class="social-btn facebook" aria-label="Compartilhar no Facebook">
@@ -362,7 +362,7 @@
                 <p class="event-description">Curso de capacitação</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/furo-humanizado" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/furo-humanizado" class="event-cta">Inscreva-se no Curso de Furo Humanizado</router-link>
                 <div class="event-social">
                   <span>Compartilhar:</span>
                   <button @click="shareOnFacebook('furo-humanizado')" class="social-btn facebook" aria-label="Compartilhar no Facebook">

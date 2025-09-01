@@ -28,7 +28,7 @@
             <p class="service-type">Individual ou Plano</p>
             <p class="service-duration">1h 30min</p>
             <p class="service-description">Suporte especializado para uma amamentação bem-sucedida e tranquila</p>
-            <router-link to="/servicos/consultoria-aleitamento" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/consultoria-aleitamento" class="service-cta">Saiba mais sobre Consultoria em Aleitamento</router-link>
           </div>
 
           <!-- Home Care Materno Infantil -->
@@ -40,7 +40,7 @@
             <p class="service-type">Para mamães e bebês</p>
             <p class="service-duration">4h ou 8h</p>
             <p class="service-description">Cuidado especializado no conforto do seu lar</p>
-            <router-link to="/servicos/home-care-materno" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/home-care-materno" class="service-cta">Saiba mais sobre Home Care</router-link>
           </div>
 
           <!-- Curso para Gestantes/Casais -->
@@ -52,7 +52,7 @@
             <p class="service-type">Preparação completa</p>
             <p class="service-duration">3h</p>
             <p class="service-description">Preparação para receber seu bebê com segurança</p>
-            <router-link to="/servicos/curso-gestantes" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/curso-gestantes" class="service-cta">Saiba mais sobre Curso para Gestantes/Casais</router-link>
           </div>
 
           <!-- Pacote Premium -->
@@ -64,7 +64,7 @@
             <p class="service-type">Pacote completo em 3 etapas</p>
             <p class="service-duration">6h</p>
             <p class="service-description">Acompanhamento completo e personalizado</p>
-            <router-link to="/servicos/pacote-premium" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/pacote-premium" class="service-cta">Saiba mais sobre Pacote Premium</router-link>
           </div>
 
           <!-- Laserterapia -->
@@ -76,7 +76,7 @@
             <p class="service-type">Para mamães e bebês</p>
             <p class="service-duration">30min</p>
             <p class="service-description">Tratamento especializado com tecnologia avançada</p>
-            <router-link to="/servicos/laserterapia" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/laserterapia" class="service-cta">Saiba mais sobre Laserterapia</router-link>
           </div>
 
           <!-- Furo de Orelha Humanizado -->
@@ -88,7 +88,7 @@
             <p class="service-type">Bebê e Adulto</p>
             <p class="service-duration">1h</p>
             <p class="service-description">Procedimento seguro e humanizado para todas as idades</p>
-            <router-link to="/servicos/furo-humanizado" class="service-cta">Mais Informações</router-link>
+            <router-link to="/servicos/furo-humanizado" class="service-cta">Saiba mais sobre Furo Humanizado</router-link>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
               <span class="course-name">Curso de Furo Humanizado - Presencial</span>
               <span class="course-duration">5h</span>
             </div>
-            <router-link to="/cursos/furo-humanizado" class="course-cta">Mais Informações</router-link>
+            <router-link to="/cursos/furo-humanizado" class="course-cta">Ver detalhes do Curso de Furo Humanizado</router-link>
           </div>
 
           <div class="course-item" data-aos="fade-up" data-aos-delay="200">
@@ -122,7 +122,7 @@
               <span class="course-name">Curso de Aleitamento Materno - Presencial</span>
               <span class="course-duration">8h</span>
             </div>
-            <router-link to="/cursos/formacao-consultores" class="course-cta">Mais Informações</router-link>
+            <router-link to="/cursos/formacao-consultores" class="course-cta">Ver detalhes do Curso de Aleitamento Materno</router-link>
           </div>
 
           <div class="course-item" data-aos="fade-up" data-aos-delay="300">
@@ -133,7 +133,7 @@
               <span class="course-name">Curso de Cuidados com Bebês - Presencial</span>
               <span class="course-duration">5h</span>
             </div>
-            <router-link to="/cursos/cuidados-bebes" class="course-cta">Mais Informações</router-link>
+            <router-link to="/cursos/cuidados-bebes" class="course-cta">Ver detalhes do Curso de Cuidados com Bebês</router-link>
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@
                 <p class="event-description">03 capacitações em 02 dias presenciais</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/imersao-profissao" class="event-cta primary">Mais Informações</router-link>
+                <router-link to="/eventos/imersao-profissao" class="event-cta primary">Inscreva-se na Imersão Profissional</router-link>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@
             </div>
             <div class="event-content">
               <div class="event-header">
-                <h3>Curso de Formação de Consultores em Aleitamento Materno</h3>
+                <h3>Formação de Consultores em Aleitamento Materno</h3>
                 <span class="event-location">Hotel Faial - Centro, Florianópolis</span>
               </div>
               <div class="event-details">
@@ -185,7 +185,7 @@
                 <p class="event-description">Para graduandos e profissionais da área da saúde</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/formacao-consultores" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/formacao-consultores" class="event-cta">Inscreva-se na Formação de Consultores em Aleitamento Materno</router-link>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@
                 <p class="event-description">Curso de capacitação</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/cuidados-bebes" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/cuidados-bebes" class="event-cta">Inscreva-se no Curso de Cuidados com Bebês</router-link>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@
                 <p class="event-description">Curso de capacitação</p>
               </div>
               <div class="event-actions">
-                <router-link to="/eventos/furo-humanizado" class="event-cta">Mais Informações</router-link>
+                <router-link to="/eventos/furo-humanizado" class="event-cta">Inscreva-se no Curso de Furo Humanizado</router-link>
               </div>
             </div>
           </div>
