@@ -31,7 +31,17 @@
   <meta name="robots" content="index, follow" />
   <meta name="language" content="pt-BR" />
   <meta name="revisit-after" content="7 days" />
+  
+  <!-- Canonical and domain verification -->
   <link rel="canonical" href="https://amamentacaoflorianopolis.com.br/" />
+  <meta name="google-site-verification" content="verificação-pendente" />
+  
+  <!-- Prevenção de duplicação de conteúdo -->
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  
+  <!-- Hreflang para SEO internacional -->
+  <link rel="alternate" hreflang="pt-br" href="https://amamentacaoflorianopolis.com.br/" />
+  <link rel="alternate" hreflang="x-default" href="https://amamentacaoflorianopolis.com.br/" />
 
   <!-- Geolocation -->
   <meta name="geo.region" content="BR-SC" />
@@ -72,33 +82,54 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Enfª Glacy Song",
-      "description": "Consultoria em aleitamento materno, cuidados com bebês e furo de orelha humanizado",
+      "@type": ["HealthAndBeautyBusiness", "MedicalBusiness"],
+      "name": "Enfª Glacy Song - Consultoria em Aleitamento Materno",
+      "alternateName": "Amamentação Florianópolis",
+      "description": "Consultoria especializada em aleitamento materno, cuidados com bebês, laserterapia e furo de orelha humanizado em Florianópolis",
       "url": "https://amamentacaoflorianopolis.com.br/",
-      "telephone": "+55-48-99999-9999",
+      "sameAs": [
+        "https://www.instagram.com/amamentacao.florianopolis/"
+      ],
+      "telephone": "+5548996680096",
+      "email": "glacy.consultoria.am@gmail.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Florianópolis",
+        "streetAddress": "Rua Bento Gonçalves, 174",
         "addressLocality": "Florianópolis",
         "addressRegion": "SC",
+        "postalCode": "88010-080",
         "addressCountry": "BR"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": -27.5954,
-        "longitude": -48.5480
+        "latitude": -27.596880576208384,
+        "longitude": -48.55223492533194
       },
-      "openingHours": "Mo-Fr 08:00-18:00",
-      "sameAs": [
-        "https://www.instagram.com/glacysong/"
+      "openingHours": [
+        "Mo-Fr 08:00-18:00",
+        "Sa 08:00-12:00"
       ],
       "priceRange": "$$",
-      "image": "https://www.amamentacaoflorianopolis.com.br/banner.webp",
+      "image": "https://amamentacaoflorianopolis.com.br/banner.webp",
+      "logo": "https://amamentacaoflorianopolis.com.br/src/assets/img/logo.webp",
       "founder": {
         "@type": "Person",
         "name": "Glacy Song",
-        "jobTitle": "Enfermeira Especialista em Aleitamento Materno"
+        "jobTitle": "Enfermeira Especialista em Aleitamento Materno",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Enfª Glacy Song - Consultoria em Aleitamento Materno"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Florianópolis e Região",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Florianópolis",
+          "addressRegion": "Santa Catarina",
+          "addressCountry": "BR"
+        }
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -107,23 +138,24 @@
           {
             "@type": "Offer",
             "itemOffered": {
-              "@type": "Service",
+              "@type": "MedicalProcedure",
               "name": "Consultoria em Aleitamento Materno",
-              "description": "Consultoria especializada para mães e bebês com dificuldades na amamentação"
+              "description": "Consultoria especializada para mães e bebês com dificuldades na amamentação",
+              "procedureType": "Consultoria"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Cuidados com Bebês",
-              "description": "Orientações e cuidados especializados para bebês"
+              "name": "Home Care Materno Infantil",
+              "description": "Cuidado especializado no conforto do seu lar para mães e bebês"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
-              "@type": "Service",
+              "@type": "MedicalProcedure",
               "name": "Furo de Orelha Humanizado",
               "description": "Procedimento humanizado e seguro para furação de orelha em bebês e adultos"
             }
@@ -131,15 +163,23 @@
           {
             "@type": "Offer",
             "itemOffered": {
-              "@type": "Service",
+              "@type": "MedicalTherapy",
               "name": "Laserterapia",
               "description": "Tratamento com laser para problemas relacionados à amamentação"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "EducationEvent",
+              "name": "Curso para Gestantes e Casais",
+              "description": "Preparação para receber seu bebê com segurança"
             }
           }
         ]
       }
     }
-    </script>
+  </script>
 </head>
 
 <body>
